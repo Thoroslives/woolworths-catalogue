@@ -1,0 +1,1200 @@
+{
+  "data": {
+    "productsByCategory": {
+      "totalNumberOfProducts": 35,
+      "nextPage": null,
+      "productsFeed": [
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000023038",
+          "name": "Macro Firm Tofu 450g",
+          "price": 280,
+          "isAvailable": true,
+          "unitPriceDescription": "$6.22 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000695083",
+          "name": "Macro Silken Tofu 300g",
+          "price": 230,
+          "isAvailable": true,
+          "unitPriceDescription": "$7.67 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000748944",
+          "name": "Macro Honey Soy Tofu 200g",
+          "price": 450,
+          "isAvailable": true,
+          "unitPriceDescription": "$22.50 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000748945",
+          "name": "Macro Satay Tofu 200g",
+          "price": 450,
+          "isAvailable": true,
+          "unitPriceDescription": "$22.50 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000118215",
+          "name": "Made With Plants Shredded Mozzarella Dairy Free 200g",
+          "price": 690,
+          "isAvailable": true,
+          "unitPriceDescription": "$34.50 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000249730",
+          "name": "Vegie Delights Vegie Sausages Plant Based 300g 6 Pack",
+          "price": 750,
+          "isAvailable": true,
+          "unitPriceDescription": "$25.00 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000345092",
+          "name": "Yumi's Classic Falafel 225g",
+          "price": 660,
+          "isAvailable": true,
+          "unitPriceDescription": "$29.33 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000119028",
+          "name": "Ever Green Original Tofu Regular Firm 900g",
+          "price": 500,
+          "isAvailable": true,
+          "unitPriceDescription": "$5.56 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000695085",
+          "name": "Macro Classic Soft Tofu 300g",
+          "price": 230,
+          "isAvailable": true,
+          "unitPriceDescription": "$7.67 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Cheese",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000954528",
+          "name": "Bio Cheese Slices Cheddar Dairy Free 200g",
+          "price": 700,
+          "isAvailable": true,
+          "unitPriceDescription": "$35.00 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Oven Ready Meals",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000090130",
+          "name": "Plantein Plant Based Schnitzel 300g",
+          "price": 800,
+          "isAvailable": true,
+          "unitPriceDescription": "$26.67 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000153336",
+          "name": "Yumi's Veggie Bites Pumpkin & Spinach 225g",
+          "price": 660,
+          "isAvailable": true,
+          "unitPriceDescription": "$29.33 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000249729",
+          "name": "Vegie Delights Vegetarian Hot Dogs 300g 6 Pack",
+          "price": 600,
+          "isAvailable": true,
+          "unitPriceDescription": "$20.00 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000152653",
+          "name": "Made With Plants Shredded Cheddar Dairy Free 200g",
+          "price": 690,
+          "isAvailable": true,
+          "unitPriceDescription": "$34.50 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000398119",
+          "name": "Yumi's Herb Falafel 200g",
+          "price": 660,
+          "isAvailable": true,
+          "unitPriceDescription": "$33.00 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000706642",
+          "name": "Yumi's Sesame Falafel Balls 225g",
+          "price": 660,
+          "isAvailable": true,
+          "unitPriceDescription": "$29.33 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Cream, Custard & Desserts",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Cream",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000123914",
+          "name": "Oat-ly! Organic Oat Cream 250ml",
+          "price": 350,
+          "isAvailable": true,
+          "unitPriceDescription": "$1.40 per 100ml",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000695086",
+          "name": "Macro Classic Tofu Regular Firmness 500g",
+          "price": 450,
+          "isAvailable": true,
+          "unitPriceDescription": "$9.00 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000065255",
+          "name": "Unreal Co. Plant Based Beefy Brat Sausages 350g 6 Pack",
+          "price": 600,
+          "isAvailable": true,
+          "unitPriceDescription": "$17.14 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000006050692",
+          "name": "Made with Plants Meat Free Bacon 200g",
+          "price": 950,
+          "isAvailable": true,
+          "unitPriceDescription": "$47.50 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000065254",
+          "name": "Unreal Co. Plant Based Chick'n Chives Sausages 350g",
+          "price": 600,
+          "isAvailable": true,
+          "unitPriceDescription": "$17.14 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000107323",
+          "name": "Bio Creamy Dairy Free Cheese Spread Original 150g",
+          "price": 480,
+          "isAvailable": true,
+          "unitPriceDescription": "$32.00 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000922070",
+          "name": "V2Food Plant Protein Mince 400g",
+          "price": 850,
+          "isAvailable": true,
+          "unitPriceDescription": "$21.25 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Oven Ready Meals",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000006051041",
+          "name": "Plantein Plant Based Tenders 300g",
+          "price": 800,
+          "isAvailable": true,
+          "unitPriceDescription": "$26.67 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000397094",
+          "name": "Yumi's Sweet Corn Fritters with Red Capsicum & Spring Onion 260g 6 Pack",
+          "price": 750,
+          "isAvailable": true,
+          "unitPriceDescription": "$28.85 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000391871",
+          "name": "Wildly Good Smoky Cauliflower Burgers 220g 2 Pack",
+          "price": 480,
+          "isAvailable": true,
+          "unitPriceDescription": "$21.82 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Freezer",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Frozen Meals",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000006021549",
+          "name": "Macro Tempeh Mince 250g",
+          "price": 490,
+          "isAvailable": true,
+          "unitPriceDescription": "$1.96 per 100g",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000118214",
+          "name": "Made With Plants Dairy Free Cheddar Slices 200g 10 Pack",
+          "price": 690,
+          "isAvailable": true,
+          "unitPriceDescription": "$34.50 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000751425",
+          "name": "Beyond Meat Beyond Burger Plant Based Patties 226g 2 Pack",
+          "price": 1100,
+          "isAvailable": true,
+          "unitPriceDescription": "$48.67 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000006051935",
+          "name": "Kehoes Kitchen Classic Sauerkraut 410g",
+          "price": 850,
+          "isAvailable": true,
+          "unitPriceDescription": "$20.73 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000627088",
+          "name": "Ever Green Hard Tofu 300g",
+          "price": 450,
+          "isAvailable": true,
+          "unitPriceDescription": "$15.00 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000193819",
+          "name": "Kehoe's Kitchen Red Kimchi 410g",
+          "price": 950,
+          "isAvailable": true,
+          "unitPriceDescription": "$23.17 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000679072",
+          "name": "Bio Cheese Feta Dairy Free 200g",
+          "price": 900,
+          "isAvailable": true,
+          "unitPriceDescription": "$45.00 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000399943",
+          "name": "Made with Plants Cheddar Block 500g",
+          "price": 1150,
+          "isAvailable": true,
+          "unitPriceDescription": "$23.00 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000531194",
+          "name": "Yumi's Veggie Bites Zucchini & Lentil 225g",
+          "price": 660,
+          "isAvailable": true,
+          "unitPriceDescription": "$29.33 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

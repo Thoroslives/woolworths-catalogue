@@ -1,0 +1,23 @@
+{
+  "data": {
+    "productDetails": {
+      "feed": [
+        {
+          "__typename": "ProductCard",
+          "productId": "000000000000133211",
+          "name": "Banana 1kg",
+          "price": 490,
+          "isAvailable": true,
+          "unitPriceDescription": "$4.90 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Produce Department",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": null
+          }
+        }
+      ]
+    }
+  }
+}

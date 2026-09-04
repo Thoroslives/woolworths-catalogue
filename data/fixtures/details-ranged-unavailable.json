@@ -1,0 +1,81 @@
+{
+  "data": {
+    "productDetails": {
+      "feed": [
+        {
+          "__typename": "ProductCard",
+          "productId": "000000000000700638",
+          "name": "Macro Organic Chick Peas 425g",
+          "price": null,
+          "isAvailable": false,
+          "unitPriceDescription": null,
+          "inStoreDetails": {
+            "locationText": "Aisle 5",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 5,
+              "aisleSide": "left",
+              "bayNumber": 7,
+              "location": "CENTRE OF STORE"
+            }
+          }
+        },
+        {
+          "__typename": "ProductNutritionInfo",
+          "title": "Nutrition information",
+          "servingSize": "Serving size: 75.0 g",
+          "servingsPerPack": "Servings per package: 3.0",
+          "tableHeaderRow": [
+            " ",
+            "Quantity Per Serving",
+            "Quantity Per 100g / 100mL"
+          ],
+          "tableRows": [
+            [
+              "Energy",
+              "333.0kJ",
+              "444.0kJ"
+            ],
+            [
+              "Protein",
+              "5.6g",
+              "7.5g"
+            ],
+            [
+              "Fat, Total",
+              "0.2g",
+              "0.3g"
+            ],
+            [
+              "\u2013 Saturated",
+              "0.1g",
+              "0.1g"
+            ],
+            [
+              "Carbohydrate",
+              "10.6g",
+              "14.2g"
+            ],
+            [
+              "\u2013 Sugars",
+              "0.1g",
+              "0.1g"
+            ],
+            [
+              "Dietary Fibre",
+              "6.0g",
+              "8.0g"
+            ],
+            [
+              "Sodium",
+              "41.0mg",
+              "55.0mg"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

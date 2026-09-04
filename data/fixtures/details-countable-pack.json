@@ -1,0 +1,81 @@
+{
+  "data": {
+    "productDetails": {
+      "feed": [
+        {
+          "__typename": "ProductCard",
+          "productId": "000000000000582117",
+          "name": "Woolworths Large Free Range Eggs 600g 12 Pack",
+          "price": 620,
+          "isAvailable": true,
+          "unitPriceDescription": "$1.03 per 100g",
+          "inStoreDetails": {
+            "locationText": "Aisle 2",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 2,
+              "aisleSide": "right",
+              "bayNumber": 26,
+              "location": "CENTRE OF STORE"
+            }
+          }
+        },
+        {
+          "__typename": "ProductNutritionInfo",
+          "title": "Nutrition information",
+          "servingSize": "Serving size: 90.0 g",
+          "servingsPerPack": "Servings per package: 6.0",
+          "tableHeaderRow": [
+            " ",
+            "Quantity Per Serving",
+            "Quantity Per 100g / 100mL"
+          ],
+          "tableRows": [
+            [
+              "Energy",
+              "536.0kJ",
+              "596.0kJ"
+            ],
+            [
+              "Protein",
+              "11.0g",
+              "12.2g"
+            ],
+            [
+              "Fat, Total",
+              "8.9g",
+              "9.9g"
+            ],
+            [
+              "\u2013 Saturated",
+              "3.0g",
+              "3.3g"
+            ],
+            [
+              "Carbohydrate",
+              "1.2g",
+              "1.3g"
+            ],
+            [
+              "\u2013 Sugars",
+              "< 0.9g",
+              "< 1.0g"
+            ],
+            [
+              "Dietary Fibre",
+              "-",
+              "-"
+            ],
+            [
+              "Sodium",
+              "122.0mg",
+              "136.0mg"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

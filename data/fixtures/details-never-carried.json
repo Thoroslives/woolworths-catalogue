@@ -1,0 +1,76 @@
+{
+  "data": {
+    "productDetails": {
+      "feed": [
+        {
+          "__typename": "ProductCard",
+          "productId": "000000000000114218",
+          "name": "Woolworths Plantitude Christmas Plant Based Roast Cranberry 500g",
+          "price": null,
+          "isAvailable": false,
+          "unitPriceDescription": null,
+          "inStoreDetails": {
+            "locationText": "See in store",
+            "locationType": "UNAVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": null
+          }
+        },
+        {
+          "__typename": "ProductNutritionInfo",
+          "title": "Nutrition information",
+          "servingSize": "Serving size: 125.0 g",
+          "servingsPerPack": "Servings per package: 4.0",
+          "tableHeaderRow": [
+            " ",
+            "Quantity Per Serving",
+            "Quantity Per 100g / 100mL"
+          ],
+          "tableRows": [
+            [
+              "Energy",
+              "1290.0kJ",
+              "1030.0kJ"
+            ],
+            [
+              "Protein",
+              "14.1g",
+              "11.3g"
+            ],
+            [
+              "Fat, Total",
+              "22.5g",
+              "18.0g"
+            ],
+            [
+              "\u2013 Saturated",
+              "1.5g",
+              "1.2g"
+            ],
+            [
+              "Carbohydrate",
+              "9.6g",
+              "7.7g"
+            ],
+            [
+              "\u2013 Sugars",
+              "5.5g",
+              "4.4g"
+            ],
+            [
+              "Dietary Fibre",
+              "6.4g",
+              "5.1g"
+            ],
+            [
+              "Sodium",
+              "369.0mg",
+              "295.0mg"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

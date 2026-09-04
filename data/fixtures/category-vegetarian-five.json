@@ -1,0 +1,180 @@
+{
+  "data": {
+    "productsByCategory": {
+      "totalNumberOfProducts": 35,
+      "nextPage": 2,
+      "productsFeed": [
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000023038",
+          "name": "Macro Firm Tofu 450g",
+          "price": 280,
+          "isAvailable": true,
+          "unitPriceDescription": "$6.22 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000695083",
+          "name": "Macro Silken Tofu 300g",
+          "price": 230,
+          "isAvailable": true,
+          "unitPriceDescription": "$7.67 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000748944",
+          "name": "Macro Honey Soy Tofu 200g",
+          "price": 450,
+          "isAvailable": true,
+          "unitPriceDescription": "$22.50 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000748945",
+          "name": "Macro Satay Tofu 200g",
+          "price": 450,
+          "isAvailable": true,
+          "unitPriceDescription": "$22.50 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000118215",
+          "name": "Made With Plants Shredded Mozzarella Dairy Free 200g",
+          "price": 690,
+          "isAvailable": true,
+          "unitPriceDescription": "$34.50 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

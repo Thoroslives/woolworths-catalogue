@@ -1,0 +1,81 @@
+{
+  "data": {
+    "productDetails": {
+      "feed": [
+        {
+          "__typename": "ProductCard",
+          "productId": "000000000000748945",
+          "name": "Macro Satay Tofu 200g",
+          "price": 450,
+          "isAvailable": true,
+          "unitPriceDescription": "$22.50 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductNutritionInfo",
+          "title": "Nutrition information",
+          "servingSize": "Serving size: 2.0 g",
+          "servingsPerPack": "Servings per package: 2.0",
+          "tableHeaderRow": [
+            " ",
+            "Quantity Per Serving",
+            "Quantity Per 100g / 100mL"
+          ],
+          "tableRows": [
+            [
+              "Energy",
+              "16.0kJ",
+              "792.0kJ"
+            ],
+            [
+              "Protein",
+              "0.3g",
+              "14.7g"
+            ],
+            [
+              "Fat, Total",
+              "0.2g",
+              "11.7g"
+            ],
+            [
+              "\u2013 Saturated",
+              "0.0g",
+              "1.5g"
+            ],
+            [
+              "Carbohydrate",
+              "0.1g",
+              "5.0g"
+            ],
+            [
+              "\u2013 Sugars",
+              "0.1g",
+              "5.0g"
+            ],
+            [
+              "Dietary Fibre",
+              "0.1g",
+              "3.0g"
+            ],
+            [
+              "Sodium",
+              "6.0mg",
+              "299.0mg"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

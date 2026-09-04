@@ -1,0 +1,81 @@
+{
+  "data": {
+    "productDetails": {
+      "feed": [
+        {
+          "__typename": "ProductCard",
+          "productId": "000000000000088186",
+          "name": "Macro Plain Tempeh 300g",
+          "price": 450,
+          "isAvailable": true,
+          "unitPriceDescription": "$15.00 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Meat Department",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 91,
+              "aisleSide": "left",
+              "bayNumber": 1,
+              "location": "MEAT DEPARTMENT"
+            }
+          }
+        },
+        {
+          "__typename": "ProductNutritionInfo",
+          "title": "Nutrition information",
+          "servingSize": "Serving size: 100.0 g",
+          "servingsPerPack": "Servings per package: 3.0",
+          "tableHeaderRow": [
+            " ",
+            "Quantity Per Serving",
+            "Quantity Per 100g / 100mL"
+          ],
+          "tableRows": [
+            [
+              "Energy",
+              "469.0kJ",
+              "469.0kJ"
+            ],
+            [
+              "Protein",
+              "12.4g",
+              "12.4g"
+            ],
+            [
+              "Fat, Total",
+              "5.0g",
+              "5.0g"
+            ],
+            [
+              "\u2013 Saturated",
+              "0.9g",
+              "0.9g"
+            ],
+            [
+              "Carbohydrate",
+              "1.0g",
+              "1.0g"
+            ],
+            [
+              "\u2013 Sugars",
+              "0.5g",
+              "0.5g"
+            ],
+            [
+              "Dietary Fibre",
+              "7.6g",
+              "7.6g"
+            ],
+            [
+              "Sodium",
+              "5.0mg",
+              "5.0mg"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

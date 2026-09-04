@@ -1,0 +1,23 @@
+{
+  "data": {
+    "productDetails": {
+      "feed": [
+        {
+          "__typename": "ProductCard",
+          "productId": "000000000006063933",
+          "name": "Sorbent 3ply White Toilet Paper 40 pk",
+          "price": 1600,
+          "isAvailable": true,
+          "unitPriceDescription": "$0.22 per 100sheets",
+          "inStoreDetails": {
+            "locationText": "See in store",
+            "locationType": "UNAVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": null
+          }
+        }
+      ]
+    }
+  }
+}

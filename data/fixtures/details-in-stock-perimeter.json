@@ -1,0 +1,81 @@
+{
+  "data": {
+    "productDetails": {
+      "feed": [
+        {
+          "__typename": "ProductCard",
+          "productId": "000000000000023038",
+          "name": "Macro Firm Tofu 450g",
+          "price": 280,
+          "isAvailable": true,
+          "unitPriceDescription": "$6.22 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 79,
+              "aisleSide": "left",
+              "bayNumber": 3,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductNutritionInfo",
+          "title": "Nutrition information",
+          "servingSize": "Serving size: 150.0 g",
+          "servingsPerPack": "Servings per package: 3.0",
+          "tableHeaderRow": [
+            " ",
+            "Quantity Per Serving",
+            "Quantity Per 100g / 100mL"
+          ],
+          "tableRows": [
+            [
+              "Energy",
+              "812.0kJ",
+              "541.0kJ"
+            ],
+            [
+              "Protein",
+              "22.2g",
+              "14.8g"
+            ],
+            [
+              "Fat, Total",
+              "5.8g",
+              "3.9g"
+            ],
+            [
+              "\u2013 Saturated",
+              "< 1.5g",
+              "< 1.0g"
+            ],
+            [
+              "Carbohydrate",
+              "< 8.4g",
+              "5.6g"
+            ],
+            [
+              "\u2013 Sugars",
+              "< 1.5g",
+              "1.0g"
+            ],
+            [
+              "Dietary Fibre",
+              "9.3g",
+              "6.2g"
+            ],
+            [
+              "Sodium",
+              "< 8.0mg",
+              "< 5.0mg"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

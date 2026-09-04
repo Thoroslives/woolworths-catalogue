@@ -1,0 +1,90 @@
+{
+  "data": {
+    "productDetails": {
+      "feed": [
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Vegetarian & Vegan",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Vegetarian & Meat Free",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000088186",
+          "name": "Macro Plain Tempeh 300g",
+          "price": null,
+          "isAvailable": false,
+          "unitPriceDescription": null,
+          "inStoreDetails": {
+            "locationText": "See in store",
+            "locationType": "UNAVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": null
+          }
+        },
+        {
+          "__typename": "ProductNutritionInfo",
+          "title": "Nutrition information",
+          "servingSize": "Serving size: 100.0 g",
+          "servingsPerPack": "Servings per package: 3.0",
+          "tableHeaderRow": [
+            " ",
+            "Quantity Per Serving",
+            "Quantity Per 100g / 100mL"
+          ],
+          "tableRows": [
+            [
+              "Energy",
+              "469.0kJ",
+              "469.0kJ"
+            ],
+            [
+              "Protein",
+              "12.4g",
+              "12.4g"
+            ],
+            [
+              "Fat, Total",
+              "5.0g",
+              "5.0g"
+            ],
+            [
+              "– Saturated",
+              "0.9g",
+              "0.9g"
+            ],
+            [
+              "Carbohydrate",
+              "1.0g",
+              "1.0g"
+            ],
+            [
+              "– Sugars",
+              "0.5g",
+              "0.5g"
+            ],
+            [
+              "Dietary Fibre",
+              "7.6g",
+              "7.6g"
+            ],
+            [
+              "Sodium",
+              "5.0mg",
+              "5.0mg"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

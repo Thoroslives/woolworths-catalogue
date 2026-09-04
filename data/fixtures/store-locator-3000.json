@@ -1,0 +1,635 @@
+{
+  "Stores": [
+    {
+      "Division": "SUPERMARKETS",
+      "StoreNo": "3304",
+      "Name": "Qv",
+      "AddressLine1": "Cnr Lonsdale and Swanston Streets",
+      "AddressLine2": null,
+      "Suburb": "Melbourne",
+      "State": "VIC",
+      "Postcode": "3000",
+      "Latitude": "-37.811511",
+      "Longitude": "144.964813",
+      "GeoLevel": "0",
+      "Distance": "0.04",
+      "Phone": "03 8347 6524",
+      "GMTZone": "10:0",
+      "IsOpen": true,
+      "PartnerUrl": null,
+      "TradingHours": [
+        {
+          "Day": "Today",
+          "OpenHour": "7:00 AM - 11:00 PM",
+          "TradingHourForDisplay": "Fri: 0700-2300"
+        },
+        {
+          "Day": "Tomorrow",
+          "OpenHour": "7:00 AM - 11:00 PM",
+          "TradingHourForDisplay": "Sat: 0700-2300"
+        },
+        {
+          "Day": "Sunday",
+          "OpenHour": "7:00 AM - 11:00 PM",
+          "TradingHourForDisplay": "Sun: 0700-2300"
+        },
+        {
+          "Day": "Monday",
+          "OpenHour": "7:00 AM - 11:00 PM",
+          "TradingHourForDisplay": "Mon: 0700-2300"
+        },
+        {
+          "Day": "Tuesday",
+          "OpenHour": "7:00 AM - 11:00 PM",
+          "TradingHourForDisplay": "Tue: 0700-2300"
+        },
+        {
+          "Day": "Wednesday",
+          "OpenHour": "7:00 AM - 11:00 PM",
+          "TradingHourForDisplay": "Wed: 0700-2300"
+        },
+        {
+          "Day": "Thursday",
+          "OpenHour": "7:00 AM - 11:00 PM",
+          "TradingHourForDisplay": "Thu: 0700-2300"
+        }
+      ],
+      "Facilities": [
+        "Liquor (Adjacent BWS)",
+        "Pick up",
+        "Quiet Hour: Mon-Thurs 10:30am",
+        "Seafood",
+        "Sushi Bar"
+      ],
+      "CategorisedFacilities": [],
+      "NearbyPartners": null
+    },
+    {
+      "Division": "SUPERMARKETS",
+      "StoreNo": "3450",
+      "Name": "Literature Lane Metro",
+      "AddressLine1": "388 Elizabeth St",
+      "AddressLine2": null,
+      "Suburb": "Melbourne",
+      "State": "VIC",
+      "Postcode": "3000",
+      "Latitude": "-37.809608",
+      "Longitude": "144.961306",
+      "GeoLevel": "0",
+      "Distance": "0.34",
+      "Phone": "03 9624 6200",
+      "GMTZone": "10:0",
+      "IsOpen": true,
+      "PartnerUrl": null,
+      "TradingHours": [
+        {
+          "Day": "Today",
+          "OpenHour": "6:00 AM - 11:00 PM",
+          "TradingHourForDisplay": "Fri: 0600-2300"
+        },
+        {
+          "Day": "Tomorrow",
+          "OpenHour": "7:00 AM - 11:00 PM",
+          "TradingHourForDisplay": "Sat: 0700-2300"
+        },
+        {
+          "Day": "Sunday",
+          "OpenHour": "7:00 AM - 11:00 PM",
+          "TradingHourForDisplay": "Sun: 0700-2300"
+        },
+        {
+          "Day": "Monday",
+          "OpenHour": "6:00 AM - 11:00 PM",
+          "TradingHourForDisplay": "Mon: 0600-2300"
+        },
+        {
+          "Day": "Tuesday",
+          "OpenHour": "6:00 AM - 11:00 PM",
+          "TradingHourForDisplay": "Tue: 0600-2300"
+        },
+        {
+          "Day": "Wednesday",
+          "OpenHour": "6:00 AM - 11:00 PM",
+          "TradingHourForDisplay": "Wed: 0600-2300"
+        },
+        {
+          "Day": "Thursday",
+          "OpenHour": "6:00 AM - 11:00 PM",
+          "TradingHourForDisplay": "Thu: 0600-2300"
+        }
+      ],
+      "Facilities": [
+        "Metro",
+        "WiFi"
+      ],
+      "CategorisedFacilities": [],
+      "NearbyPartners": null
+    },
+    {
+      "Division": "SUPERMARKETS",
+      "StoreNo": "3438",
+      "Name": "222 Exhibition St Metro",
+      "AddressLine1": "222 Exhibition Street",
+      "AddressLine2": null,
+      "Suburb": "Melbourne",
+      "State": "VIC",
+      "Postcode": "3000",
+      "Latitude": "-37.81073",
+      "Longitude": "144.970245",
+      "GeoLevel": "0",
+      "Distance": "0.5",
+      "Phone": "03 9258 8423",
+      "GMTZone": "10:0",
+      "IsOpen": true,
+      "PartnerUrl": null,
+      "TradingHours": [
+        {
+          "Day": "Today",
+          "OpenHour": "7:00 AM - 10:00 PM",
+          "TradingHourForDisplay": "Fri: 0700-2200"
+        },
+        {
+          "Day": "Tomorrow",
+          "OpenHour": "8:00 AM - 10:00 PM",
+          "TradingHourForDisplay": "Sat: 0800-2200"
+        },
+        {
+          "Day": "Sunday",
+          "OpenHour": "8:00 AM - 9:00 PM",
+          "TradingHourForDisplay": "Sun: 0800-2100"
+        },
+        {
+          "Day": "Monday",
+          "OpenHour": "7:00 AM - 10:00 PM",
+          "TradingHourForDisplay": "Mon: 0700-2200"
+        },
+        {
+          "Day": "Tuesday",
+          "OpenHour": "7:00 AM - 10:00 PM",
+          "TradingHourForDisplay": "Tue: 0700-2200"
+        },
+        {
+          "Day": "Wednesday",
+          "OpenHour": "7:00 AM - 10:00 PM",
+          "TradingHourForDisplay": "Wed: 0700-2200"
+        },
+        {
+          "Day": "Thursday",
+          "OpenHour": "7:00 AM - 10:00 PM",
+          "TradingHourForDisplay": "Thu: 0700-2200"
+        }
+      ],
+      "Facilities": [
+        "Convenience Store",
+        "Liquor (Adjacent BWS)",
+        "Metro",
+        "WiFi"
+      ],
+      "CategorisedFacilities": [],
+      "NearbyPartners": null
+    },
+    {
+      "Division": "SUPERMARKETS",
+      "StoreNo": "3028",
+      "Name": "Queens Place Metro",
+      "AddressLine1": "350 Queen Street",
+      "AddressLine2": null,
+      "Suburb": "Melbourne",
+      "State": "VIC",
+      "Postcode": "3000",
+      "Latitude": "-37.81002227",
+      "Longitude": "144.9586681",
+      "GeoLevel": "0",
+      "Distance": "0.54",
+      "Phone": "03 9258 8439",
+      "GMTZone": "10:0",
+      "IsOpen": true,
+      "PartnerUrl": null,
+      "TradingHours": [
+        {
+          "Day": "Today",
+          "OpenHour": "7:00 AM - 12:00 AM",
+          "TradingHourForDisplay": "Fri: 0700-0000"
+        },
+        {
+          "Day": "Tomorrow",
+          "OpenHour": "7:00 AM - 11:00 PM",
+          "TradingHourForDisplay": "Sat: 0700-2300"
+        },
+        {
+          "Day": "Sunday",
+          "OpenHour": "8:00 AM - 11:00 PM",
+          "TradingHourForDisplay": "Sun: 0800-2300"
+        },
+        {
+          "Day": "Monday",
+          "OpenHour": "7:00 AM - 12:00 AM",
+          "TradingHourForDisplay": "Mon: 0700-0000"
+        },
+        {
+          "Day": "Tuesday",
+          "OpenHour": "7:00 AM - 12:00 AM",
+          "TradingHourForDisplay": "Tue: 0700-0000"
+        },
+        {
+          "Day": "Wednesday",
+          "OpenHour": "7:00 AM - 12:00 AM",
+          "TradingHourForDisplay": "Wed: 0700-0000"
+        },
+        {
+          "Day": "Thursday",
+          "OpenHour": "7:00 AM - 12:00 AM",
+          "TradingHourForDisplay": "Thu: 0700-0000"
+        }
+      ],
+      "Facilities": [
+        "Convenience Store",
+        "Instore Bakery",
+        "Liquor (Adjacent BWS)",
+        "Metro",
+        "Seafood",
+        "Sushi Bar",
+        "WiFi"
+      ],
+      "CategorisedFacilities": [],
+      "NearbyPartners": null
+    },
+    {
+      "Division": "SUPERMARKETS",
+      "StoreNo": "3452",
+      "Name": "Elizabeth St Metro",
+      "AddressLine1": "60 Elizabeth St",
+      "AddressLine2": null,
+      "Suburb": "Melbourne",
+      "State": "VIC",
+      "Postcode": "3000",
+      "Latitude": "-37.816796",
+      "Longitude": "144.964419",
+      "GeoLevel": "0",
+      "Distance": "0.62",
+      "Phone": "03 8347 6692",
+      "GMTZone": "10:0",
+      "IsOpen": true,
+      "PartnerUrl": null,
+      "TradingHours": [
+        {
+          "Day": "Today",
+          "OpenHour": "7:00 AM - 11:00 PM",
+          "TradingHourForDisplay": "Fri: 0700-2300"
+        },
+        {
+          "Day": "Tomorrow",
+          "OpenHour": "8:00 AM - 10:00 PM",
+          "TradingHourForDisplay": "Sat: 0800-2200"
+        },
+        {
+          "Day": "Sunday",
+          "OpenHour": "8:00 AM - 10:00 PM",
+          "TradingHourForDisplay": "Sun: 0800-2200"
+        },
+        {
+          "Day": "Monday",
+          "OpenHour": "7:00 AM - 11:00 PM",
+          "TradingHourForDisplay": "Mon: 0700-2300"
+        },
+        {
+          "Day": "Tuesday",
+          "OpenHour": "7:00 AM - 11:00 PM",
+          "TradingHourForDisplay": "Tue: 0700-2300"
+        },
+        {
+          "Day": "Wednesday",
+          "OpenHour": "7:00 AM - 11:00 PM",
+          "TradingHourForDisplay": "Wed: 0700-2300"
+        },
+        {
+          "Day": "Thursday",
+          "OpenHour": "7:00 AM - 11:00 PM",
+          "TradingHourForDisplay": "Thu: 0700-2300"
+        }
+      ],
+      "Facilities": [
+        "Convenience Store",
+        "Liquor (Adjacent BWS)",
+        "Metro",
+        "WiFi"
+      ],
+      "CategorisedFacilities": [],
+      "NearbyPartners": null
+    },
+    {
+      "Division": "SUPERMARKETS",
+      "StoreNo": "8281",
+      "Name": "City North Metro",
+      "AddressLine1": "611 Elizabeth Street",
+      "AddressLine2": null,
+      "Suburb": "Melbourne",
+      "State": "VIC",
+      "Postcode": "3000",
+      "Latitude": "-37.80307",
+      "Longitude": "144.95756",
+      "GeoLevel": "0",
+      "Distance": "1.1",
+      "Phone": "03 9258 8456",
+      "GMTZone": "10:0",
+      "IsOpen": true,
+      "PartnerUrl": null,
+      "TradingHours": [
+        {
+          "Day": "Today",
+          "OpenHour": "7:00 AM - 10:00 PM",
+          "TradingHourForDisplay": "Fri: 0700-2200"
+        },
+        {
+          "Day": "Tomorrow",
+          "OpenHour": "7:00 AM - 10:00 PM",
+          "TradingHourForDisplay": "Sat: 0700-2200"
+        },
+        {
+          "Day": "Sunday",
+          "OpenHour": "8:00 AM - 10:00 PM",
+          "TradingHourForDisplay": "Sun: 0800-2200"
+        },
+        {
+          "Day": "Monday",
+          "OpenHour": "7:00 AM - 10:00 PM",
+          "TradingHourForDisplay": "Mon: 0700-2200"
+        },
+        {
+          "Day": "Tuesday",
+          "OpenHour": "7:00 AM - 10:00 PM",
+          "TradingHourForDisplay": "Tue: 0700-2200"
+        },
+        {
+          "Day": "Wednesday",
+          "OpenHour": "7:00 AM - 10:00 PM",
+          "TradingHourForDisplay": "Wed: 0700-2200"
+        },
+        {
+          "Day": "Thursday",
+          "OpenHour": "7:00 AM - 10:00 PM",
+          "TradingHourForDisplay": "Thu: 0700-2200"
+        }
+      ],
+      "Facilities": [
+        "Convenience Store",
+        "Instore Bakery",
+        "Liquor (Adjacent BWS)",
+        "Metro",
+        "Sushi Bar",
+        "WiFi"
+      ],
+      "CategorisedFacilities": [],
+      "NearbyPartners": null
+    },
+    {
+      "Division": "SUPERMARKETS",
+      "StoreNo": "3089",
+      "Name": "Southern Cross Metro",
+      "AddressLine1": "CNR COLLINS AND SPENCER STREETS,",
+      "AddressLine2": null,
+      "Suburb": "Docklands",
+      "State": "VIC",
+      "Postcode": "3008",
+      "Latitude": "-37.81892676",
+      "Longitude": "144.9533984",
+      "GeoLevel": "0",
+      "Distance": "1.31",
+      "Phone": "03 8347 6634",
+      "GMTZone": "10:0",
+      "IsOpen": true,
+      "PartnerUrl": null,
+      "TradingHours": [
+        {
+          "Day": "Today",
+          "OpenHour": "5:30 AM - 11:30 PM",
+          "TradingHourForDisplay": "Fri: 0530-2330"
+        },
+        {
+          "Day": "Tomorrow",
+          "OpenHour": "6:00 AM - 11:30 PM",
+          "TradingHourForDisplay": "Sat: 0600-2330"
+        },
+        {
+          "Day": "Sunday",
+          "OpenHour": "7:00 AM - 11:30 PM",
+          "TradingHourForDisplay": "Sun: 0700-2330"
+        },
+        {
+          "Day": "Monday",
+          "OpenHour": "5:30 AM - 11:30 PM",
+          "TradingHourForDisplay": "Mon: 0530-2330"
+        },
+        {
+          "Day": "Tuesday",
+          "OpenHour": "5:30 AM - 11:30 PM",
+          "TradingHourForDisplay": "Tue: 0530-2330"
+        },
+        {
+          "Day": "Wednesday",
+          "OpenHour": "5:30 AM - 11:30 PM",
+          "TradingHourForDisplay": "Wed: 0530-2330"
+        },
+        {
+          "Day": "Thursday",
+          "OpenHour": "5:30 AM - 11:30 PM",
+          "TradingHourForDisplay": "Thu: 0530-2330"
+        }
+      ],
+      "Facilities": [
+        "Convenience Store",
+        "Liquor (Adjacent BWS)",
+        "Metro",
+        "Sushi Bar",
+        "WiFi"
+      ],
+      "CategorisedFacilities": [],
+      "NearbyPartners": null
+    },
+    {
+      "Division": "SUPERMARKETS",
+      "StoreNo": "3163",
+      "Name": "Carlton",
+      "AddressLine1": "Lygon Court, 368-380 Lygon Street",
+      "AddressLine2": null,
+      "Suburb": "Carlton",
+      "State": "VIC",
+      "Postcode": "3053",
+      "Latitude": "-37.798175",
+      "Longitude": "144.968443",
+      "GeoLevel": "0",
+      "Distance": "1.49",
+      "Phone": "03 8347 5891",
+      "GMTZone": "10:0",
+      "IsOpen": true,
+      "PartnerUrl": null,
+      "TradingHours": [
+        {
+          "Day": "Today",
+          "OpenHour": "7:00 AM - 11:00 PM",
+          "TradingHourForDisplay": "Fri: 0700-2300"
+        },
+        {
+          "Day": "Tomorrow",
+          "OpenHour": "7:00 AM - 11:00 PM",
+          "TradingHourForDisplay": "Sat: 0700-2300"
+        },
+        {
+          "Day": "Sunday",
+          "OpenHour": "7:00 AM - 11:00 PM",
+          "TradingHourForDisplay": "Sun: 0700-2300"
+        },
+        {
+          "Day": "Monday",
+          "OpenHour": "7:00 AM - 11:00 PM",
+          "TradingHourForDisplay": "Mon: 0700-2300"
+        },
+        {
+          "Day": "Tuesday",
+          "OpenHour": "7:00 AM - 11:00 PM",
+          "TradingHourForDisplay": "Tue: 0700-2300"
+        },
+        {
+          "Day": "Wednesday",
+          "OpenHour": "7:00 AM - 11:00 PM",
+          "TradingHourForDisplay": "Wed: 0700-2300"
+        },
+        {
+          "Day": "Thursday",
+          "OpenHour": "7:00 AM - 11:00 PM",
+          "TradingHourForDisplay": "Thu: 0700-2300"
+        }
+      ],
+      "Facilities": [
+        "WiFi"
+      ],
+      "CategorisedFacilities": [],
+      "NearbyPartners": null
+    },
+    {
+      "Division": "SUPERMARKETS",
+      "StoreNo": "3813",
+      "Name": "Melbourne Square (Southbank)",
+      "AddressLine1": "10 Hoff Boulevard",
+      "AddressLine2": null,
+      "Suburb": "Southbank",
+      "State": "VIC",
+      "Postcode": "3006",
+      "Latitude": "-37.8257293",
+      "Longitude": "144.9635009",
+      "GeoLevel": "0",
+      "Distance": "1.62",
+      "Phone": "03 9258 8408",
+      "GMTZone": "10:0",
+      "IsOpen": true,
+      "PartnerUrl": null,
+      "TradingHours": [
+        {
+          "Day": "Today",
+          "OpenHour": "7:00 AM - 12:00 AM",
+          "TradingHourForDisplay": "Fri: 0700-0000"
+        },
+        {
+          "Day": "Tomorrow",
+          "OpenHour": "7:00 AM - 12:00 AM",
+          "TradingHourForDisplay": "Sat: 0700-0000"
+        },
+        {
+          "Day": "Sunday",
+          "OpenHour": "7:00 AM - 12:00 AM",
+          "TradingHourForDisplay": "Sun: 0700-0000"
+        },
+        {
+          "Day": "Monday",
+          "OpenHour": "7:00 AM - 12:00 AM",
+          "TradingHourForDisplay": "Mon: 0700-0000"
+        },
+        {
+          "Day": "Tuesday",
+          "OpenHour": "7:00 AM - 12:00 AM",
+          "TradingHourForDisplay": "Tue: 0700-0000"
+        },
+        {
+          "Day": "Wednesday",
+          "OpenHour": "7:00 AM - 12:00 AM",
+          "TradingHourForDisplay": "Wed: 0700-0000"
+        },
+        {
+          "Day": "Thursday",
+          "OpenHour": "7:00 AM - 12:00 AM",
+          "TradingHourForDisplay": "Thu: 0700-0000"
+        }
+      ],
+      "Facilities": [
+        "Direct to boot - drive through",
+        "Pick up"
+      ],
+      "CategorisedFacilities": [],
+      "NearbyPartners": null
+    },
+    {
+      "Division": "SUPERMARKETS",
+      "StoreNo": "3762",
+      "Name": "Collins Square Metro",
+      "AddressLine1": "727 Collins Street",
+      "AddressLine2": null,
+      "Suburb": "Docklands",
+      "State": "VIC",
+      "Postcode": "3008",
+      "Latitude": "-37.820576",
+      "Longitude": "144.950294",
+      "GeoLevel": "0",
+      "Distance": "1.63",
+      "Phone": "03 96246205",
+      "GMTZone": "10:0",
+      "IsOpen": true,
+      "PartnerUrl": null,
+      "TradingHours": [
+        {
+          "Day": "Today",
+          "OpenHour": "7:00 AM - 7:00 PM",
+          "TradingHourForDisplay": "Fri: 0700-1900"
+        },
+        {
+          "Day": "Tomorrow",
+          "OpenHour": "Closed",
+          "TradingHourForDisplay": "Sat: Closed"
+        },
+        {
+          "Day": "Sunday",
+          "OpenHour": "Closed",
+          "TradingHourForDisplay": "Sun: Closed"
+        },
+        {
+          "Day": "Monday",
+          "OpenHour": "7:00 AM - 7:00 PM",
+          "TradingHourForDisplay": "Mon: 0700-1900"
+        },
+        {
+          "Day": "Tuesday",
+          "OpenHour": "7:00 AM - 7:00 PM",
+          "TradingHourForDisplay": "Tue: 0700-1900"
+        },
+        {
+          "Day": "Wednesday",
+          "OpenHour": "7:00 AM - 7:00 PM",
+          "TradingHourForDisplay": "Wed: 0700-1900"
+        },
+        {
+          "Day": "Thursday",
+          "OpenHour": "7:00 AM - 7:00 PM",
+          "TradingHourForDisplay": "Thu: 0700-1900"
+        }
+      ],
+      "Facilities": [
+        "CARD payment only",
+        "Convenience Store",
+        "Metro",
+        "Pick up",
+        "WiFi"
+      ],
+      "CategorisedFacilities": [],
+      "NearbyPartners": null
+    }
+  ]
+}

@@ -1,0 +1,1016 @@
+{
+  "Products": [
+    {
+      "Products": [
+        {
+          "TileID": 1,
+          "Stockcode": 1121186503,
+          "Barcode": null,
+          "GtinFormat": 0,
+          "CupPrice": 30.99,
+          "InstoreCupPrice": 30.99,
+          "CupMeasure": "1EA",
+          "CupString": "$30.99 / 1EA",
+          "InstoreCupString": "$30.99 / 1EA",
+          "HasCupPrice": true,
+          "InstoreHasCupPrice": true,
+          "Price": 30.99,
+          "IncrementalPrice": null,
+          "IncrementalWasPrice": null,
+          "IncrementalMinimumQuantity": null,
+          "IncrementalMinimumQuantityUnit": "g",
+          "PricePerKGLabel": "Price per Kg charged",
+          "MinWeightPrice": null,
+          "MaxWeightPrice": null,
+          "InstorePrice": 30.99,
+          "Name": "Bark & Beyond Goat Horn Dental Care Pet Dog Chew Treats Medium",
+          "DisplayName": "Bark & Beyond Goat Horn Dental Care Pet Dog Chew Treats Medium",
+          "UrlFriendlyName": "bark-beyond-goat-horn-dental-care-pet-dog-chew-treats-medium",
+          "Description": " Bark & Beyond   ",
+          "SmallImageFile": "https://cdn0.woolworths.media/content/wowproductimages/small/1121186503.jpg",
+          "MediumImageFile": "https://cdn0.woolworths.media/content/wowproductimages/medium/1121186503.jpg",
+          "LargeImageFile": "https://cdn0.woolworths.media/content/wowproductimages/large/1121186503.jpg",
+          "IsNew": false,
+          "IsHalfPrice": false,
+          "IsOnlineOnly": false,
+          "IsOnSpecial": false,
+          "InstoreIsOnSpecial": false,
+          "IsEdrSpecial": false,
+          "SavingsAmount": 0,
+          "InstoreSavingsAmount": 0,
+          "WasPrice": 30.99,
+          "InstoreWasPrice": 30.99,
+          "QuantityInTrolley": 0,
+          "Unit": "Each",
+          "MinimumQuantity": 1,
+          "HasBeenBoughtBefore": false,
+          "IsInTrolley": false,
+          "Source": "SearchServiceSearchProducts",
+          "SupplyLimit": 36,
+          "ProductLimit": 36,
+          "MaxSupplyLimitMessage": "36 item limit",
+          "IsRanged": true,
+          "IsInStock": true,
+          "PackageSize": "",
+          "IsPmDelivery": false,
+          "IsForCollection": false,
+          "IsForDelivery": true,
+          "IsForExpress": true,
+          "ProductRestrictionMessage": null,
+          "ProductWarningMessage": null,
+          "CentreTag": {
+            "TagContent": null,
+            "TagLink": null,
+            "FallbackText": null,
+            "TagType": "None",
+            "MultibuyData": null,
+            "MemberPriceData": null,
+            "FFPVMemberPriceData": null,
+            "TagContentText": null,
+            "DualImageTagContent": null,
+            "PromotionType": "NOT_SET",
+            "IsRegisteredRewardCardPromotion": false
+          },
+          "IsCentreTag": false,
+          "ImageTag": {
+            "TagContent": "/content/promotiontags/free-shipping-secondary.png",
+            "TagLink": null,
+            "FallbackText": "Everyday Market free shipping",
+            "TagType": "None",
+            "MultibuyData": null,
+            "MemberPriceData": null,
+            "FFPVMemberPriceData": null,
+            "TagContentText": null,
+            "DualImageTagContent": null,
+            "PromotionType": "FREE_SHIPPING",
+            "IsRegisteredRewardCardPromotion": false
+          },
+          "HeaderTag": null,
+          "HasHeaderTag": false,
+          "UnitWeightInGrams": 0,
+          "SupplyLimitMessage": "'Bark & Beyond Goat Horn Dental Care Pet Dog Chew Treats Medium' has a supply limit of 36. The quantity in your cart has been reduced accordingly. To purchase a larger quantity, please contact us on 1800 000 610. Please note we do not supply trade orders.",
+          "SmallFormatDescription": "Bark & Beyond  ",
+          "FullDescription": "Bark & Beyond  ",
+          "IsAvailable": true,
+          "InstoreIsAvailable": false,
+          "IsPurchasable": true,
+          "InstoreIsPurchasable": false,
+          "AgeRestricted": false,
+          "DisplayQuantity": 1,
+          "RichDescription": null,
+          "HideWasSavedPrice": false,
+          "SapCategories": null,
+          "Brand": "Bark & Beyond",
+          "IsRestrictedByDeliveryMethod": false,
+          "FooterTag": {
+            "TagContent": null,
+            "TagLink": null,
+            "FallbackText": null,
+            "TagType": "None",
+            "MultibuyData": null,
+            "MemberPriceData": null,
+            "FFPVMemberPriceData": null,
+            "TagContentText": null,
+            "DualImageTagContent": null,
+            "PromotionType": "NOT_SET",
+            "IsRegisteredRewardCardPromotion": false
+          },
+          "IsFooterEnabled": true,
+          "Diagnostics": "0",
+          "IsBundle": false,
+          "IsInFamily": false,
+          "ChildProducts": null,
+          "UrlOverride": null,
+          "AdditionalAttributes": {
+            "Market.Seller_BusinessName": "Squizzy's Online",
+            "boxedcontents": null,
+            "addedvitaminsandminerals": "False",
+            "sapdepartmentname": null,
+            "spf": null,
+            "haircolour": null,
+            "lifestyleanddietarystatement": null,
+            "sapcategoryname": null,
+            "skintype": null,
+            "importantinformation": null,
+            "allergystatement": null,
+            "productdepthmm": null,
+            "skincondition": null,
+            "ophthalmologistapproved": null,
+            "healthstarrating": null,
+            "Market.ProductTags": "",
+            "hairtype": null,
+            "Market.No_Change_Of_Mind_Returns": "True",
+            "fragrance-free": null,
+            "sapsegmentname": null,
+            "Market.SellerMaxDaysToDelivery": "12",
+            "suitablefor": null,
+            "PiesProductDepartmentsjson": "[{\"Id\":\"1_A363395\",\"Description\":\"Everyday Market\"},{\"Id\":\"1_61D6FEB\",\"Description\":\"Pet\"}]",
+            "piessubcategorynamesjson": "[\"Dog & Puppy\"]",
+            "Market.IsFreeShipping": "True",
+            "Market.UnitHeight": "",
+            "sapsegmentno": null,
+            "Market.IsPoBoxDeliverable": "True",
+            "Market.MaxPurchaseQuantity": "32",
+            "productwidthmm": null,
+            "sapsubcategoryname": null,
+            "contains": null,
+            "dermatologisttested": null,
+            "wool_productpackaging": null,
+            "Market.Features": "[]",
+            "Market.Seller_Id": "Q29tcGFueS00NjYyMg==",
+            "Market.IsSellerCourierReturnable": "False",
+            "dermatologicallyapproved": null,
+            "specialsgroupid": null,
+            "productimages": "1121186503.jpg",
+            "productheightmm": null,
+            "r&r_hidereviews": null,
+            "Market.DescriptionHtml": "",
+            "microwavesafe": "False",
+            "paba-free": null,
+            "lifestyleclaim": null,
+            "alcoholfree": null,
+            "Market.UnitWidth": "",
+            "tgawarning": null,
+            "Market.IsGiftable": "False",
+            "activeconstituents": null,
+            "microwaveable": "False",
+            "soap-free": null,
+            "Market.Variant_Id": "VmFyaWFudC0w",
+            "Market.IsOversized": "False",
+            "countryoforigin": null,
+            "productimagecount": "1",
+            "isexcludedfromsubstitution": "False",
+            "r&r_loggedinreviews": null,
+            "Market.UnitWeight": "",
+            "anti-dandruff": null,
+            "servingsize-total-nip": null,
+            "tgahealthwarninglink": null,
+            "allergenmaybepresent": null,
+            "SourcePlatform": "WMP",
+            "Market.PlatformCategoryId": "185",
+            "PiesProductDepartmentNodeId": "1_A363395",
+            "parabenfree": "False",
+            "containsgluten": "False",
+            "vendorarticleid": null,
+            "Market.ManufactureProductNumber": "",
+            "colour": null,
+            "ingredients": null,
+            "containsnuts": "False",
+            "manufacturer": null,
+            "sapcategoryno": null,
+            "storageinstructions": null,
+            "tgawarnings": null,
+            "piesdepartmentnamesjson": "[\"Everyday Market\",\"Pet\"]",
+            "brand": null,
+            "fragrance": null,
+            "oilfree": null,
+            "non-comedogenic": null,
+            "antibacterial": "False",
+            "Market.UnitDepth": "",
+            "Market.Variant_LegacyId": "0",
+            "Market.VariantProductIds": "",
+            "ml_enriched_product_description": null,
+            "Market.AdvertId": "RGVhbC0xMzIzNjU4MA==",
+            "Market.AdvertLegacyId": "13236580",
+            "bpafree": "False",
+            "antiseptic": "False",
+            "description": "<p>Goat Horns are made of real ingredients that don't contain any added hormones, chemicals, or preservatives.</p>  <p>Dental Health: Chewing on the hard shell of the hooves works to help improve your pet's dental health. It scrapes off the plaque, tartar, and gunk that can build up and cause bad breath as well as dental disease. It is a simple and effective way to keep your pet's oral hygiene high.</p>  <p>Long Lasting, tough, and durable Goat Horns are the perfect treat for aggressive chewers.</p>  <p>They will outlast hours of tough chewing by the sharpest teeth and strongest jaws.</p>\n<p>Squizzys Online ships items within 1-2 business days. Squizzys Online tries to ensure that all products are delivered in a prompt and timely manner. However, from time to time, it is possible that shipping and other factors outside of our control may result in delays. Squizzys Online does not accept any liability for loss or damage suffered by anyone as a result of any such delays and we shall not be liable for any inaccuracy of information provided in relation to the date and time of delivery.</p><p>Squizzys Online reserves the right not to ship to remote or rural locations. If you are located in a remote or rural area &amp; you place an order we will contact you to try work out a solution for you, we may be able to deliver your parcel to a town near you. If we are unable to find a solution you will be issued with a full refund.</p>\n<p>Change of Mind:</p><p>Squizzys Online will accept any new and unused purchase returned within 30-days of purchase for a refund or exchange (excluding freight charges) Any goods returned for a refund or exchange must be in the original packaging and in a saleable condition, accompanied by the original invoice number, date of purchase and reason for return.<br /><br />Please contact us in the event that you're not satisfied with your purchase or service we have provided as we're more than happy to work with you to ensure a positive experience.<br /><br />All returns are subject to inspection by Squizzys Online and must be returned to the address shown on the invoice at the consumer&rsquo;s expense for inspection. Any part that, in our opinion, shows evidence of being used or installed contrary to manufacturer's instructions and/or subjected to improper handling, packaging, or shipping by the customer will not be eligible for exchange, refund, or warranty consideration.<br /><br />No liability will be attached to Squizzys Online for any loss of profits and/or any other loss, damage or expense arising out of any defect from supplied componentry.</p><p>&nbsp;</p><p>Warranty:</p><p>If you received a damaged shipment, product and/or faulty item, please send through photos of the damaged item(s) and include your invoice number and name, and we will work with you to resolve the issue.</p>",
+            "vendorcostprice": null,
+            "Market.SellerMinDaysToDelivery": "4",
+            "sweatresistant": null,
+            "Market.IsBulky": "True",
+            "sapsubcategoryno": null,
+            "claims": null,
+            "antioxidant": "False",
+            "phbalanced": null,
+            "Market.Variant_Sku": "",
+            "wool_dietaryclaim": null,
+            "sulfatefree": "False",
+            "ophthalmologisttested": null,
+            "servingsperpack-total-nip": null,
+            "piescategorynamesjson": "[\"Dog & Puppy\",\"Pet\"]",
+            "Market.IsGstIncluded": "True",
+            "nutritionalinformation": null,
+            "ovencook": "False",
+            "vegetarian": "False",
+            "hypo-allergenic": null,
+            "dermatologistrecommended": null,
+            "timer": null,
+            "sapdepartmentno": null,
+            "allergencontains": null,
+            "waterresistant": null,
+            "Market.Gender": "",
+            "friendlydisclaimer": null,
+            "recyclableinformation": null,
+            "Market.SpecificationsHtml": "",
+            "usageinstructions": null,
+            "Market.IsPrimaryVariant": "",
+            "freezable": "False"
+          },
+          "TgaAttributes": {
+            "Directions": null,
+            "ProductWarnings": "",
+            "SuitableFor": null,
+            "StorageInstructions": null
+          },
+          "DetailsImagePaths": [
+            "https://cdn0.woolworths.media/content/wowproductimages/large/1121186503.jpg"
+          ],
+          "Variety": null,
+          "Rating": {
+            "ReviewCount": 0,
+            "RatingCount": 0,
+            "RatingSum": 0,
+            "OneStarCount": 0,
+            "TwoStarCount": 0,
+            "ThreeStarCount": 0,
+            "FourStarCount": 0,
+            "FiveStarCount": 0,
+            "Average": 0,
+            "OneStarPercentage": 0,
+            "TwoStarPercentage": 0,
+            "ThreeStarPercentage": 0,
+            "FourStarPercentage": 0,
+            "FiveStarPercentage": 0
+          },
+          "HasProductSubs": false,
+          "IsSponsoredAd": false,
+          "AdID": null,
+          "AdIndex": null,
+          "AdStatus": null,
+          "IsMarketProduct": true,
+          "IsGiftable": false,
+          "Vendor": "Squizzy's Online",
+          "Untraceable": false,
+          "ThirdPartyProductInfo": {
+            "VendorName": "Squizzy's Online",
+            "ProductMessagePrefix": "Shipped & sold by",
+            "DeliveryMessagePrefix": "Shipped by",
+            "ThirdPartyVendorDeliveryInfo": {
+              "VendorId": "Q29tcGFueS00NjYyMg==",
+              "VendorName": "Squizzy's Online",
+              "DayRangeDispatchNote": "1-2 business days",
+              "HasGiftProducts": false,
+              "MinimumDeliveryTime": "2026-08-06T12:41:51.8627689+10:00",
+              "MaximumDeliveryTime": "2026-08-14T12:41:51.8627689+10:00",
+              "ShipmentType": "Standard"
+            },
+            "DeliveryFlatFee": 10,
+            "MarketProductDeliveryInfo": null
+          },
+          "MarketFeatures": null,
+          "MarketSpecifications": null,
+          "SupplyLimitSource": "ProductLimit",
+          "Tags": [
+            {
+              "Content": {
+                "Type": "Roundel",
+                "Position": "Top",
+                "Attributes": {
+                  "ImagePath": "/content/promotiontags/free-shipping-secondary.png",
+                  "FallbackText": "Everyday Market free shipping"
+                },
+                "FFPVAttributes": null
+              },
+              "TemplateId": null,
+              "Metadata": null
+            }
+          ],
+          "IsPersonalisedByPurchaseHistory": false,
+          "IsFromFacetedSearch": false,
+          "NextAvailabilityDate": null,
+          "NumberOfSubstitutes": 0,
+          "IsPrimaryVariant": false,
+          "VariantGroupId": 0,
+          "HasVariants": false,
+          "VariantTitle": null,
+          "IsTobacco": false,
+          "IsFreeShipping": true,
+          "FulfilmentStoreId": 1100,
+          "B2BExtendedRange": null,
+          "OfferId": null,
+          "BundleProductGroups": null
+        }
+      ],
+      "Name": "Bark & Beyond Goat Horn Dental Care Pet Dog Chew Treats Medium",
+      "DisplayName": "Bark & Beyond Goat Horn Dental Care Pet Dog Chew Treats Medium"
+    },
+    {
+      "Products": [
+        {
+          "TileID": 2,
+          "Stockcode": 1121186421,
+          "Barcode": null,
+          "GtinFormat": 0,
+          "CupPrice": 22.99,
+          "InstoreCupPrice": 22.99,
+          "CupMeasure": "1EA",
+          "CupString": "$22.99 / 1EA",
+          "InstoreCupString": "$22.99 / 1EA",
+          "HasCupPrice": true,
+          "InstoreHasCupPrice": true,
+          "Price": 22.99,
+          "IncrementalPrice": null,
+          "IncrementalWasPrice": null,
+          "IncrementalMinimumQuantity": null,
+          "IncrementalMinimumQuantityUnit": "g",
+          "PricePerKGLabel": "Price per Kg charged",
+          "MinWeightPrice": null,
+          "MaxWeightPrice": null,
+          "InstorePrice": 22.99,
+          "Name": "Bark & Beyond Goat Horn Dental Care Pet Dog Chew Treats Small",
+          "DisplayName": "Bark & Beyond Goat Horn Dental Care Pet Dog Chew Treats Small",
+          "UrlFriendlyName": "bark-beyond-goat-horn-dental-care-pet-dog-chew-treats-small",
+          "Description": " Bark & Beyond   ",
+          "SmallImageFile": "https://cdn0.woolworths.media/content/wowproductimages/small/1121186421.jpg",
+          "MediumImageFile": "https://cdn0.woolworths.media/content/wowproductimages/medium/1121186421.jpg",
+          "LargeImageFile": "https://cdn0.woolworths.media/content/wowproductimages/large/1121186421.jpg",
+          "IsNew": false,
+          "IsHalfPrice": false,
+          "IsOnlineOnly": false,
+          "IsOnSpecial": false,
+          "InstoreIsOnSpecial": false,
+          "IsEdrSpecial": false,
+          "SavingsAmount": 0,
+          "InstoreSavingsAmount": 0,
+          "WasPrice": 22.99,
+          "InstoreWasPrice": 22.99,
+          "QuantityInTrolley": 0,
+          "Unit": "Each",
+          "MinimumQuantity": 1,
+          "HasBeenBoughtBefore": false,
+          "IsInTrolley": false,
+          "Source": "SearchServiceSearchProducts",
+          "SupplyLimit": 36,
+          "ProductLimit": 36,
+          "MaxSupplyLimitMessage": "36 item limit",
+          "IsRanged": true,
+          "IsInStock": true,
+          "PackageSize": "",
+          "IsPmDelivery": false,
+          "IsForCollection": false,
+          "IsForDelivery": true,
+          "IsForExpress": true,
+          "ProductRestrictionMessage": null,
+          "ProductWarningMessage": null,
+          "CentreTag": {
+            "TagContent": null,
+            "TagLink": null,
+            "FallbackText": null,
+            "TagType": "None",
+            "MultibuyData": null,
+            "MemberPriceData": null,
+            "FFPVMemberPriceData": null,
+            "TagContentText": null,
+            "DualImageTagContent": null,
+            "PromotionType": "NOT_SET",
+            "IsRegisteredRewardCardPromotion": false
+          },
+          "IsCentreTag": false,
+          "ImageTag": {
+            "TagContent": "/content/promotiontags/free-shipping-secondary.png",
+            "TagLink": null,
+            "FallbackText": "Everyday Market free shipping",
+            "TagType": "None",
+            "MultibuyData": null,
+            "MemberPriceData": null,
+            "FFPVMemberPriceData": null,
+            "TagContentText": null,
+            "DualImageTagContent": null,
+            "PromotionType": "FREE_SHIPPING",
+            "IsRegisteredRewardCardPromotion": false
+          },
+          "HeaderTag": null,
+          "HasHeaderTag": false,
+          "UnitWeightInGrams": 0,
+          "SupplyLimitMessage": "'Bark & Beyond Goat Horn Dental Care Pet Dog Chew Treats Small' has a supply limit of 36. The quantity in your cart has been reduced accordingly. To purchase a larger quantity, please contact us on 1800 000 610. Please note we do not supply trade orders.",
+          "SmallFormatDescription": "Bark & Beyond  ",
+          "FullDescription": "Bark & Beyond  ",
+          "IsAvailable": true,
+          "InstoreIsAvailable": false,
+          "IsPurchasable": true,
+          "InstoreIsPurchasable": false,
+          "AgeRestricted": false,
+          "DisplayQuantity": 1,
+          "RichDescription": null,
+          "HideWasSavedPrice": false,
+          "SapCategories": null,
+          "Brand": "Bark & Beyond",
+          "IsRestrictedByDeliveryMethod": false,
+          "FooterTag": {
+            "TagContent": null,
+            "TagLink": null,
+            "FallbackText": null,
+            "TagType": "None",
+            "MultibuyData": null,
+            "MemberPriceData": null,
+            "FFPVMemberPriceData": null,
+            "TagContentText": null,
+            "DualImageTagContent": null,
+            "PromotionType": "NOT_SET",
+            "IsRegisteredRewardCardPromotion": false
+          },
+          "IsFooterEnabled": true,
+          "Diagnostics": "1",
+          "IsBundle": false,
+          "IsInFamily": false,
+          "ChildProducts": null,
+          "UrlOverride": null,
+          "AdditionalAttributes": {
+            "Market.Seller_BusinessName": "Squizzy's Online",
+            "boxedcontents": null,
+            "addedvitaminsandminerals": "False",
+            "sapdepartmentname": null,
+            "spf": null,
+            "haircolour": null,
+            "lifestyleanddietarystatement": null,
+            "sapcategoryname": null,
+            "skintype": null,
+            "importantinformation": null,
+            "allergystatement": null,
+            "productdepthmm": null,
+            "skincondition": null,
+            "ophthalmologistapproved": null,
+            "healthstarrating": null,
+            "Market.ProductTags": "",
+            "hairtype": null,
+            "Market.No_Change_Of_Mind_Returns": "True",
+            "fragrance-free": null,
+            "sapsegmentname": null,
+            "Market.SellerMaxDaysToDelivery": "12",
+            "suitablefor": null,
+            "PiesProductDepartmentsjson": "[{\"Id\":\"1_A363395\",\"Description\":\"Everyday Market\"},{\"Id\":\"1_61D6FEB\",\"Description\":\"Pet\"}]",
+            "piessubcategorynamesjson": "[\"Dog & Puppy\"]",
+            "Market.IsFreeShipping": "True",
+            "Market.UnitHeight": "",
+            "sapsegmentno": null,
+            "Market.IsPoBoxDeliverable": "True",
+            "Market.MaxPurchaseQuantity": "32",
+            "productwidthmm": null,
+            "sapsubcategoryname": null,
+            "contains": null,
+            "dermatologisttested": null,
+            "wool_productpackaging": null,
+            "Market.Features": "[]",
+            "Market.Seller_Id": "Q29tcGFueS00NjYyMg==",
+            "Market.IsSellerCourierReturnable": "False",
+            "dermatologicallyapproved": null,
+            "specialsgroupid": null,
+            "productimages": "1121186421.jpg",
+            "productheightmm": null,
+            "r&r_hidereviews": null,
+            "Market.DescriptionHtml": "",
+            "microwavesafe": "False",
+            "paba-free": null,
+            "lifestyleclaim": null,
+            "alcoholfree": null,
+            "Market.UnitWidth": "",
+            "tgawarning": null,
+            "Market.IsGiftable": "False",
+            "activeconstituents": null,
+            "microwaveable": "False",
+            "soap-free": null,
+            "Market.Variant_Id": "VmFyaWFudC0w",
+            "Market.IsOversized": "False",
+            "countryoforigin": null,
+            "productimagecount": "1",
+            "isexcludedfromsubstitution": "False",
+            "r&r_loggedinreviews": null,
+            "Market.UnitWeight": "",
+            "anti-dandruff": null,
+            "servingsize-total-nip": null,
+            "tgahealthwarninglink": null,
+            "allergenmaybepresent": null,
+            "SourcePlatform": "WMP",
+            "Market.PlatformCategoryId": "185",
+            "PiesProductDepartmentNodeId": "1_A363395",
+            "parabenfree": "False",
+            "containsgluten": "False",
+            "vendorarticleid": null,
+            "Market.ManufactureProductNumber": "TDBBGHSML",
+            "colour": null,
+            "ingredients": null,
+            "containsnuts": "False",
+            "manufacturer": null,
+            "sapcategoryno": null,
+            "storageinstructions": null,
+            "tgawarnings": null,
+            "piesdepartmentnamesjson": "[\"Everyday Market\",\"Pet\"]",
+            "brand": null,
+            "fragrance": null,
+            "oilfree": null,
+            "non-comedogenic": null,
+            "antibacterial": "False",
+            "Market.UnitDepth": "",
+            "Market.Variant_LegacyId": "0",
+            "Market.VariantProductIds": "",
+            "ml_enriched_product_description": null,
+            "Market.AdvertId": "RGVhbC0xMzIzNjUzOQ==",
+            "Market.AdvertLegacyId": "13236539",
+            "bpafree": "False",
+            "antiseptic": "False",
+            "description": "<p>Goat Horns are made of real ingredients that don't contain any added hormones, chemicals, or preservatives.</p>  <p>Dental Health: Chewing on the hard shell of the hooves works to help improve your pet's dental health. It scrapes off the plaque, tartar, and gunk that can build up and cause bad breath as well as dental disease. It is a simple and effective way to keep your pet's oral hygiene high.</p>  <p>Long Lasting, tough, and durable Goat Horns are the perfect treat for aggressive chewers.</p>  <p>They will outlast hours of tough chewing by the sharpest teeth and strongest jaws.</p>\n<p>Squizzys Online ships items within 1-2 business days. Squizzys Online tries to ensure that all products are delivered in a prompt and timely manner. However, from time to time, it is possible that shipping and other factors outside of our control may result in delays. Squizzys Online does not accept any liability for loss or damage suffered by anyone as a result of any such delays and we shall not be liable for any inaccuracy of information provided in relation to the date and time of delivery.</p><p>Squizzys Online reserves the right not to ship to remote or rural locations. If you are located in a remote or rural area &amp; you place an order we will contact you to try work out a solution for you, we may be able to deliver your parcel to a town near you. If we are unable to find a solution you will be issued with a full refund.</p>\n<p>Change of Mind:</p><p>Squizzys Online will accept any new and unused purchase returned within 30-days of purchase for a refund or exchange (excluding freight charges) Any goods returned for a refund or exchange must be in the original packaging and in a saleable condition, accompanied by the original invoice number, date of purchase and reason for return.<br /><br />Please contact us in the event that you're not satisfied with your purchase or service we have provided as we're more than happy to work with you to ensure a positive experience.<br /><br />All returns are subject to inspection by Squizzys Online and must be returned to the address shown on the invoice at the consumer&rsquo;s expense for inspection. Any part that, in our opinion, shows evidence of being used or installed contrary to manufacturer's instructions and/or subjected to improper handling, packaging, or shipping by the customer will not be eligible for exchange, refund, or warranty consideration.<br /><br />No liability will be attached to Squizzys Online for any loss of profits and/or any other loss, damage or expense arising out of any defect from supplied componentry.</p><p>&nbsp;</p><p>Warranty:</p><p>If you received a damaged shipment, product and/or faulty item, please send through photos of the damaged item(s) and include your invoice number and name, and we will work with you to resolve the issue.</p>",
+            "vendorcostprice": null,
+            "Market.SellerMinDaysToDelivery": "4",
+            "sweatresistant": null,
+            "Market.IsBulky": "True",
+            "sapsubcategoryno": null,
+            "claims": null,
+            "antioxidant": "False",
+            "phbalanced": null,
+            "Market.Variant_Sku": "",
+            "wool_dietaryclaim": null,
+            "sulfatefree": "False",
+            "ophthalmologisttested": null,
+            "servingsperpack-total-nip": null,
+            "piescategorynamesjson": "[\"Dog & Puppy\",\"Pet\"]",
+            "Market.IsGstIncluded": "True",
+            "nutritionalinformation": null,
+            "ovencook": "False",
+            "vegetarian": "False",
+            "hypo-allergenic": null,
+            "dermatologistrecommended": null,
+            "timer": null,
+            "sapdepartmentno": null,
+            "allergencontains": null,
+            "waterresistant": null,
+            "Market.Gender": "",
+            "friendlydisclaimer": null,
+            "recyclableinformation": null,
+            "Market.SpecificationsHtml": "",
+            "usageinstructions": null,
+            "Market.IsPrimaryVariant": "",
+            "freezable": "False"
+          },
+          "TgaAttributes": {
+            "Directions": null,
+            "ProductWarnings": "",
+            "SuitableFor": null,
+            "StorageInstructions": null
+          },
+          "DetailsImagePaths": [
+            "https://cdn0.woolworths.media/content/wowproductimages/large/1121186421.jpg"
+          ],
+          "Variety": null,
+          "Rating": {
+            "ReviewCount": 0,
+            "RatingCount": 0,
+            "RatingSum": 0,
+            "OneStarCount": 0,
+            "TwoStarCount": 0,
+            "ThreeStarCount": 0,
+            "FourStarCount": 0,
+            "FiveStarCount": 0,
+            "Average": 0,
+            "OneStarPercentage": 0,
+            "TwoStarPercentage": 0,
+            "ThreeStarPercentage": 0,
+            "FourStarPercentage": 0,
+            "FiveStarPercentage": 0
+          },
+          "HasProductSubs": false,
+          "IsSponsoredAd": false,
+          "AdID": null,
+          "AdIndex": null,
+          "AdStatus": null,
+          "IsMarketProduct": true,
+          "IsGiftable": false,
+          "Vendor": "Squizzy's Online",
+          "Untraceable": false,
+          "ThirdPartyProductInfo": {
+            "VendorName": "Squizzy's Online",
+            "ProductMessagePrefix": "Shipped & sold by",
+            "DeliveryMessagePrefix": "Shipped by",
+            "ThirdPartyVendorDeliveryInfo": {
+              "VendorId": "Q29tcGFueS00NjYyMg==",
+              "VendorName": "Squizzy's Online",
+              "DayRangeDispatchNote": "1-2 business days",
+              "HasGiftProducts": false,
+              "MinimumDeliveryTime": "2026-08-06T12:41:51.8627689+10:00",
+              "MaximumDeliveryTime": "2026-08-14T12:41:51.8627689+10:00",
+              "ShipmentType": "Standard"
+            },
+            "DeliveryFlatFee": 10,
+            "MarketProductDeliveryInfo": null
+          },
+          "MarketFeatures": null,
+          "MarketSpecifications": null,
+          "SupplyLimitSource": "ProductLimit",
+          "Tags": [
+            {
+              "Content": {
+                "Type": "Roundel",
+                "Position": "Top",
+                "Attributes": {
+                  "ImagePath": "/content/promotiontags/free-shipping-secondary.png",
+                  "FallbackText": "Everyday Market free shipping"
+                },
+                "FFPVAttributes": null
+              },
+              "TemplateId": null,
+              "Metadata": null
+            }
+          ],
+          "IsPersonalisedByPurchaseHistory": false,
+          "IsFromFacetedSearch": false,
+          "NextAvailabilityDate": null,
+          "NumberOfSubstitutes": 0,
+          "IsPrimaryVariant": false,
+          "VariantGroupId": 0,
+          "HasVariants": false,
+          "VariantTitle": null,
+          "IsTobacco": false,
+          "IsFreeShipping": true,
+          "FulfilmentStoreId": 1100,
+          "B2BExtendedRange": null,
+          "OfferId": null,
+          "BundleProductGroups": null
+        }
+      ],
+      "Name": "Bark & Beyond Goat Horn Dental Care Pet Dog Chew Treats Small",
+      "DisplayName": "Bark & Beyond Goat Horn Dental Care Pet Dog Chew Treats Small"
+    }
+  ],
+  "Corrections": null,
+  "SearchResultsCount": 2,
+  "VisualShoppingAisleResponse": [],
+  "Aggregations": [
+    {
+      "Name": "Level1Categories",
+      "DisplayName": "Categories",
+      "Type": "Multi",
+      "FilterType": "Term",
+      "FilterDataType": "String",
+      "Results": [
+        {
+          "Name": "1_61D6FEB",
+          "Term": "1_61D6FEB",
+          "ExtraOutputFields": {
+            "description": "Pet",
+            "nodelevel": 1,
+            "displayorder": 38,
+            "parentnodeid": "1-4A3B264C"
+          },
+          "Min": null,
+          "Max": null,
+          "Applied": false,
+          "Count": 2,
+          "Statement": null,
+          "DisplayCoachMarks": false
+        },
+        {
+          "Name": "1_A363395",
+          "Term": "1_A363395",
+          "ExtraOutputFields": {
+            "description": "Everyday Market",
+            "nodelevel": 1,
+            "displayorder": 1,
+            "parentnodeid": "1-4A3B264C"
+          },
+          "Min": null,
+          "Max": null,
+          "Applied": false,
+          "Count": 2,
+          "Statement": null,
+          "DisplayCoachMarks": false
+        }
+      ],
+      "ResultsGrouped": null,
+      "State": "Closed",
+      "Rank": 0,
+      "AdditionalResults": false,
+      "DesignType": "Default",
+      "ShowFilter": false,
+      "Statement": null,
+      "DisplayCoachMarks": false,
+      "DisplayIcons": false
+    },
+    {
+      "Name": "Brand",
+      "DisplayName": "Brand",
+      "Type": "Multi",
+      "FilterType": "Term",
+      "FilterDataType": "String",
+      "Results": null,
+      "ResultsGrouped": [
+        {
+          "Alphabet": "0-9",
+          "Filters": []
+        },
+        {
+          "Alphabet": "A",
+          "Filters": []
+        },
+        {
+          "Alphabet": "B",
+          "Filters": [
+            {
+              "Name": "Bark & Beyond",
+              "Term": "Bark & Beyond",
+              "ExtraOutputFields": {},
+              "Min": null,
+              "Max": null,
+              "Applied": false,
+              "Count": 2,
+              "Statement": null,
+              "DisplayCoachMarks": false
+            }
+          ]
+        },
+        {
+          "Alphabet": "C",
+          "Filters": []
+        },
+        {
+          "Alphabet": "D",
+          "Filters": []
+        },
+        {
+          "Alphabet": "E",
+          "Filters": []
+        },
+        {
+          "Alphabet": "F",
+          "Filters": []
+        },
+        {
+          "Alphabet": "G",
+          "Filters": []
+        },
+        {
+          "Alphabet": "H",
+          "Filters": []
+        },
+        {
+          "Alphabet": "I",
+          "Filters": []
+        },
+        {
+          "Alphabet": "J",
+          "Filters": []
+        },
+        {
+          "Alphabet": "K",
+          "Filters": []
+        },
+        {
+          "Alphabet": "L",
+          "Filters": []
+        },
+        {
+          "Alphabet": "M",
+          "Filters": []
+        },
+        {
+          "Alphabet": "N",
+          "Filters": []
+        },
+        {
+          "Alphabet": "O",
+          "Filters": []
+        },
+        {
+          "Alphabet": "P",
+          "Filters": []
+        },
+        {
+          "Alphabet": "Q",
+          "Filters": []
+        },
+        {
+          "Alphabet": "R",
+          "Filters": []
+        },
+        {
+          "Alphabet": "S",
+          "Filters": []
+        },
+        {
+          "Alphabet": "T",
+          "Filters": []
+        },
+        {
+          "Alphabet": "U",
+          "Filters": []
+        },
+        {
+          "Alphabet": "V",
+          "Filters": []
+        },
+        {
+          "Alphabet": "W",
+          "Filters": []
+        },
+        {
+          "Alphabet": "X",
+          "Filters": []
+        },
+        {
+          "Alphabet": "Y",
+          "Filters": []
+        },
+        {
+          "Alphabet": "Z",
+          "Filters": []
+        }
+      ],
+      "State": "Closed",
+      "Rank": 2,
+      "AdditionalResults": false,
+      "DesignType": "Default",
+      "ShowFilter": true,
+      "Statement": null,
+      "DisplayCoachMarks": false,
+      "DisplayIcons": false
+    },
+    {
+      "Name": "Vendor",
+      "DisplayName": "Everyday Market Partner",
+      "Type": "Multi",
+      "FilterType": "Term",
+      "FilterDataType": "String",
+      "Results": null,
+      "ResultsGrouped": [
+        {
+          "Alphabet": "0-9",
+          "Filters": []
+        },
+        {
+          "Alphabet": "A",
+          "Filters": []
+        },
+        {
+          "Alphabet": "B",
+          "Filters": []
+        },
+        {
+          "Alphabet": "C",
+          "Filters": []
+        },
+        {
+          "Alphabet": "D",
+          "Filters": []
+        },
+        {
+          "Alphabet": "E",
+          "Filters": []
+        },
+        {
+          "Alphabet": "F",
+          "Filters": []
+        },
+        {
+          "Alphabet": "G",
+          "Filters": []
+        },
+        {
+          "Alphabet": "H",
+          "Filters": []
+        },
+        {
+          "Alphabet": "I",
+          "Filters": []
+        },
+        {
+          "Alphabet": "J",
+          "Filters": []
+        },
+        {
+          "Alphabet": "K",
+          "Filters": []
+        },
+        {
+          "Alphabet": "L",
+          "Filters": []
+        },
+        {
+          "Alphabet": "M",
+          "Filters": []
+        },
+        {
+          "Alphabet": "N",
+          "Filters": []
+        },
+        {
+          "Alphabet": "O",
+          "Filters": []
+        },
+        {
+          "Alphabet": "P",
+          "Filters": []
+        },
+        {
+          "Alphabet": "Q",
+          "Filters": []
+        },
+        {
+          "Alphabet": "R",
+          "Filters": []
+        },
+        {
+          "Alphabet": "S",
+          "Filters": [
+            {
+              "Name": "Squizzy's Online",
+              "Term": "Squizzy's Online",
+              "ExtraOutputFields": {
+                "description": "Squizzy's Online",
+                "nodelevel": 1,
+                "displayorder": 1,
+                "parentnodeid": null
+              },
+              "Min": null,
+              "Max": null,
+              "Applied": false,
+              "Count": 2,
+              "Statement": null,
+              "DisplayCoachMarks": false
+            }
+          ]
+        },
+        {
+          "Alphabet": "T",
+          "Filters": []
+        },
+        {
+          "Alphabet": "U",
+          "Filters": []
+        },
+        {
+          "Alphabet": "V",
+          "Filters": []
+        },
+        {
+          "Alphabet": "W",
+          "Filters": []
+        },
+        {
+          "Alphabet": "X",
+          "Filters": []
+        },
+        {
+          "Alphabet": "Y",
+          "Filters": []
+        },
+        {
+          "Alphabet": "Z",
+          "Filters": []
+        }
+      ],
+      "State": "Closed",
+      "Rank": 6,
+      "AdditionalResults": false,
+      "DesignType": "Default",
+      "ShowFilter": true,
+      "Statement": null,
+      "DisplayCoachMarks": false,
+      "DisplayIcons": false
+    }
+  ],
+  "HasTobaccoItems": false,
+  "Passes": null,
+  "SuggestedTerm": "beyond goat",
+  "FacetFilters": null,
+  "AttributionToken": null,
+  "AttributionTokenRef": null
+}

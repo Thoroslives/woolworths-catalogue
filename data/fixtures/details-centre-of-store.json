@@ -1,0 +1,81 @@
+{
+  "data": {
+    "productDetails": {
+      "feed": [
+        {
+          "__typename": "ProductCard",
+          "productId": "000000000000346830",
+          "name": "WW Pasta Spaghetti 500g",
+          "price": 100,
+          "isAvailable": true,
+          "unitPriceDescription": "$0.20 per 100g",
+          "inStoreDetails": {
+            "locationText": "Aisle 6",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 6,
+              "aisleSide": "right",
+              "bayNumber": 8,
+              "location": "CENTRE OF STORE"
+            }
+          }
+        },
+        {
+          "__typename": "ProductNutritionInfo",
+          "title": "Nutrition information",
+          "servingSize": "Serving size: 100.0 g",
+          "servingsPerPack": "Servings per package: 5.0",
+          "tableHeaderRow": [
+            " ",
+            "Quantity Per Serving",
+            "Quantity Per 100g / 100mL"
+          ],
+          "tableRows": [
+            [
+              "Energy",
+              "1490.0kJ",
+              "1490.0kJ"
+            ],
+            [
+              "Protein",
+              "12.7g",
+              "12.7g"
+            ],
+            [
+              "Fat, Total",
+              "2.2g",
+              "2.2g"
+            ],
+            [
+              "\u2013 Saturated",
+              "0.4g",
+              "0.4g"
+            ],
+            [
+              "Carbohydrate",
+              "68.6g",
+              "68.6g"
+            ],
+            [
+              "\u2013 Sugars",
+              "1.4g",
+              "1.4g"
+            ],
+            [
+              "Dietary Fibre",
+              "3.2g",
+              "3.2g"
+            ],
+            [
+              "Sodium",
+              "6.0mg",
+              "6.0mg"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

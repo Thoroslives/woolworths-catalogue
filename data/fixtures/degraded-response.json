@@ -1,0 +1,111 @@
+{
+  "data": {
+    "productsByCategory": {
+      "totalNumberOfProducts": 0,
+      "nextPage": null,
+      "analytics": null,
+      "productsFeed": [],
+      "filters": [],
+      "sortOptions": [
+        {
+          "key": "TraderRelevance",
+          "title": "Relevance",
+          "subtitle": null,
+          "isApplied": true
+        },
+        {
+          "key": "Name",
+          "title": "A-Z",
+          "subtitle": null,
+          "isApplied": false
+        },
+        {
+          "key": "NameDesc",
+          "title": "Z-A",
+          "subtitle": null,
+          "isApplied": false
+        },
+        {
+          "key": "AvailableDateDesc",
+          "title": "New",
+          "subtitle": null,
+          "isApplied": false
+        },
+        {
+          "key": "PriceAsc",
+          "title": "Price",
+          "subtitle": "Low to High",
+          "isApplied": false
+        },
+        {
+          "key": "PriceDesc",
+          "title": "Price",
+          "subtitle": "High to Low",
+          "isApplied": false
+        },
+        {
+          "key": "CUPAsc",
+          "title": "Unit Price",
+          "subtitle": "Low to High",
+          "isApplied": false
+        },
+        {
+          "key": "CUPDesc",
+          "title": "Unit Price",
+          "subtitle": "High to Low",
+          "isApplied": false
+        }
+      ],
+      "marketplaceFilterSwitch": {
+        "title": "Show Everyday Market items",
+        "subtitle": "Shop more brands you love with Everyday Market.",
+        "imageUrl": "https://www.woolworths.com.au/content/promotiontags/em-roundel-circle.png",
+        "buttonCta": {
+          "label": "Learn more"
+        },
+        "value": true
+      },
+      "marketplaceInfo": {
+        "title": "How it works",
+        "items": [
+          {
+            "title": "What is Everyday Market?",
+            "description": "Everyday Market from Woolworths is an online marketplace where you can shop hundreds of new and unexpected brands all in one place. Discover thousands of products from our extended range sold and supplied by our Everyday Market Partners.",
+            "imageUrl": "https://cdn0.woolworths.media/content/mobile/marketplace/info/ic-em-circle.png"
+          },
+          {
+            "title": "Is there a shipping fee?",
+            "description": "Everyday Market orders include a separate $10 flat shipping fee. Enjoy free shipping when you spend $50 or more on your Everyday Market order. Min. spend excludes Woolworth's groceries.",
+            "imageUrl": "https://cdn0.woolworths.media/content/mobile/marketplace/info/ic-shipping_fee.png"
+          },
+          {
+            "title": "Will my Everyday Market items be delivered with my groceries?",
+            "description": "Everyday Market orders are shipped separately from your Woolworths groceries by our Everyday Market partners. You will be notified on the progress of your order via email.",
+            "imageUrl": "https://cdn0.woolworths.media/content/mobile/marketplace/info/ic-delivery.png"
+          },
+          {
+            "title": "Can I collect Everyday Rewards points?",
+            "description": "Yes! You'll collect a minimum of 1 point for every dollar you spend on Everyday Market items. Exclusions apply",
+            "imageUrl": "https://cdn0.woolworths.media/content/mobile/marketplace/info/ic-rewards.png"
+          }
+        ],
+        "footer": {
+          "title": "Have more questions?",
+          "subtitle": "Visit our website",
+          "linkUrl": "https://www.woolworths.com.au/shop/page/help-and-support-faq"
+        }
+      },
+      "marketplaceBottomSheet": {
+        "bottomSheetTitle": "Extra $10 shipping fee on Everyday Market items",
+        "bottomSheetBody": "Everyday Market items are supplied and shipped by our partners and include a $10 flat shipping fee. Get free shipping on orders $50 or more (excludes Woolworths items).",
+        "primaryCta": {
+          "label": "Learn more"
+        },
+        "secondaryCta": {
+          "label": "Continue adding"
+        },
+        "showOnceOnly": true
+      }
+    }
+  }
+}

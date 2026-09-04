@@ -1,0 +1,11 @@
+{
+  "errors": [
+    {
+      "message": "Error",
+      "path": null,
+      "extensions": {
+        "code": "BAD_USER_INPUT"
+      }
+    }
+  ]
+}
