@@ -1,0 +1,100 @@
+{
+  "data": {
+    "productDetails": {
+      "feed": [
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Cheese",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Grated Cheese",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000491820",
+          "name": "Hillview Tasty Shredded Cheese 700g",
+          "price": 850,
+          "wasPrice": "Was $9.30 25/08/2026",
+          "promotionInfo": {
+            "type": "LOWER_SHELF_PRICE",
+            "label": "LOWER SHELF PRICE"
+          },
+          "isAvailable": true,
+          "unitPriceDescription": "$12.14 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 1,
+              "aisleSide": "left",
+              "bayNumber": 1,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductNutritionInfo",
+          "title": "Nutrition information",
+          "servingSize": "Serving size: 25.0 g",
+          "servingsPerPack": "Servings per package: 28.0",
+          "tableHeaderRow": [
+            " ",
+            "Quantity Per Serving",
+            "Quantity Per 100g / 100mL"
+          ],
+          "tableRows": [
+            [
+              "Energy",
+              "412.0kJ",
+              "1650.0kJ"
+            ],
+            [
+              "Protein",
+              "5.8g",
+              "23.2g"
+            ],
+            [
+              "Fat, Total",
+              "8.4g",
+              "33.8g"
+            ],
+            [
+              "– Saturated",
+              "5.6g",
+              "22.4g"
+            ],
+            [
+              "Carbohydrate",
+              "0.2g",
+              "< 1.0g"
+            ],
+            [
+              "– Sugars",
+              "0.2g",
+              "< 1.0g"
+            ],
+            [
+              "Dietary Fibre",
+              "-",
+              "-"
+            ],
+            [
+              "Sodium",
+              "171.0mg",
+              "684.0mg"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

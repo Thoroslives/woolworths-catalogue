@@ -26,6 +26,48 @@ export interface PackSize {
   packUnit: PackUnit | null;
 }
 
+/**
+ * What the shelf tag says about this price beyond the price itself.
+ *
+ * Three different things arrive through one pair of fields, and only one of
+ * them is a special. Sampled over 108 products in five categories at one store
+ * on 2026-09-06: 47 `LOW_PRICE`, 37 carrying nothing, 16 `LOWER_SHELF_PRICE`,
+ * 8 `SPECIAL`.
+ *
+ *   - `SPECIAL` is a real, temporary special, and the label states the saving
+ *     outright: "SAVE $0.70".
+ *   - `LOWER_SHELF_PRICE` is a permanent drop. The was-price carries the date
+ *     it dropped, and it is not going back up, so it is not something to hurry
+ *     for.
+ *   - `LOW_PRICE` is "EVERYDAY LOW PRICE" and nothing changed at all. It
+ *     carries no was-price.
+ *
+ * Treating all three as one would mark two thirds of a shop.
+ */
+export interface ProductPromotion {
+  /**
+   * The tag verbatim: "Was $7.00", "Was $10.50 05/03/2026",
+   * "Range was $7.90 14/04/2026".
+   *
+   * Kept beside the parsed number for the same reason `packDisplay` is kept
+   * beside `packAmount`. "Range was" is the range's old price rather than this
+   * product's own, and a bare number cannot say so.
+   */
+  wasPriceDisplay: string | null;
+  /**
+   * Dollars, read out of that text.
+   *
+   * **Unlike `price`, the wire gives this one in dollars already**, inside a
+   * formatted string. Dividing it by a hundred the way `price` is divided
+   * turns seven dollars into seven cents.
+   */
+  wasPrice: number | null;
+  /** "SPECIAL", "LOWER_SHELF_PRICE", "LOW_PRICE". */
+  promotionType: string | null;
+  /** "SAVE $0.70", "LOWER SHELF PRICE", "EVERYDAY LOW PRICE". */
+  promotionLabel: string | null;
+}
+
 export interface ProductLocation {
   locationText: string | null;
   locationZone: string | null;
@@ -34,7 +76,7 @@ export interface ProductLocation {
   bayNumber: number | null;
 }
 
-export interface ProductRow extends PackSize, ProductLocation {
+export interface ProductRow extends PackSize, ProductLocation, ProductPromotion {
   stockcode: string;
   storeNumber: string;
   name: string;

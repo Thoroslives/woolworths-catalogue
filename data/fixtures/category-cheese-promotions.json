@@ -1,0 +1,466 @@
+{
+  "data": {
+    "productsByCategory": {
+      "totalNumberOfProducts": 428,
+      "nextPage": 2,
+      "productsFeed": [
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Cheese",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Grated Cheese",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000491820",
+          "name": "Hillview Tasty Shredded Cheese 700g",
+          "price": 850,
+          "wasPrice": "Was $9.30 25/08/2026",
+          "promotionInfo": {
+            "type": "LOWER_SHELF_PRICE",
+            "label": "LOWER SHELF PRICE"
+          },
+          "isAvailable": true,
+          "unitPriceDescription": "$12.14 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 1,
+              "aisleSide": "left",
+              "bayNumber": 1,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Cheese",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Sliced Cheese",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000224941",
+          "name": "Woolworths Tasty Cheese Slices 500g",
+          "price": 750,
+          "wasPrice": "Range was $7.90 14/04/2026",
+          "promotionInfo": {
+            "type": "LOWER_SHELF_PRICE",
+            "label": "LOWER SHELF PRICE"
+          },
+          "isAvailable": true,
+          "unitPriceDescription": "$15.00 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 1,
+              "aisleSide": "left",
+              "bayNumber": 6,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Cheese",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Cooking Cheese",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000452083",
+          "name": "Woolworths Greek Style Fetta 200g",
+          "price": 300,
+          "wasPrice": "Range was $3.20 25/08/2026",
+          "promotionInfo": {
+            "type": "LOWER_SHELF_PRICE",
+            "label": "LOWER SHELF PRICE"
+          },
+          "isAvailable": true,
+          "unitPriceDescription": "$15.00 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 1,
+              "aisleSide": "left",
+              "bayNumber": 1,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Cheese",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Block Cheese",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000500187",
+          "name": "Hillview Cheese Block Tasty 1kg",
+          "price": 930,
+          "wasPrice": "Was $10.50 05/03/2026",
+          "promotionInfo": {
+            "type": "LOWER_SHELF_PRICE",
+            "label": "LOWER SHELF PRICE"
+          },
+          "isAvailable": true,
+          "unitPriceDescription": "$9.30 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 1,
+              "aisleSide": "left",
+              "bayNumber": 6,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Cheese",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Spreads",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000296507",
+          "name": "Woolworths Spreadable Cream Cheese 250g",
+          "price": 260,
+          "wasPrice": null,
+          "promotionInfo": null,
+          "isAvailable": true,
+          "unitPriceDescription": "$10.40 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 1,
+              "aisleSide": "left",
+              "bayNumber": 1,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Cheese",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Sliced Cheese",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000006041303",
+          "name": "Hillview Original Cheese Slices IWS 432g",
+          "price": 380,
+          "wasPrice": null,
+          "promotionInfo": {
+            "type": "LOW_PRICE",
+            "label": "EVERYDAY LOW PRICE"
+          },
+          "isAvailable": true,
+          "unitPriceDescription": "$8.80 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 1,
+              "aisleSide": "left",
+              "bayNumber": 6,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Cheese",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Cooking Cheese",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000780717",
+          "name": "Woolworths Creamed Cottage Cheese 500g",
+          "price": 600,
+          "wasPrice": null,
+          "promotionInfo": null,
+          "isAvailable": true,
+          "unitPriceDescription": "$12.00 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 1,
+              "aisleSide": "left",
+              "bayNumber": 1,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Cheese",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Gourmet Cheese",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000085587",
+          "name": "Woolworths Shredded Parmesan Mature 250g",
+          "price": 540,
+          "wasPrice": "Range was $5.70 25/08/2026",
+          "promotionInfo": {
+            "type": "LOWER_SHELF_PRICE",
+            "label": "LOWER SHELF PRICE"
+          },
+          "isAvailable": true,
+          "unitPriceDescription": "$21.60 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 1,
+              "aisleSide": "left",
+              "bayNumber": 1,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Cheese",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Block Cheese",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000310237",
+          "name": "Woolworths Tasty Cheese Block 500g",
+          "price": 680,
+          "wasPrice": "Range was $7.70 25/08/2026",
+          "promotionInfo": {
+            "type": "LOWER_SHELF_PRICE",
+            "label": "LOWER SHELF PRICE"
+          },
+          "isAvailable": true,
+          "unitPriceDescription": "$13.60 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 1,
+              "aisleSide": "left",
+              "bayNumber": 6,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Cheese",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Cooking Cheese",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000360847",
+          "name": "Bulla Cottage Cheese Original 500g",
+          "price": 800,
+          "wasPrice": null,
+          "promotionInfo": null,
+          "isAvailable": true,
+          "unitPriceDescription": "$16.00 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 1,
+              "aisleSide": "left",
+              "bayNumber": 1,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Cheese",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Spreads",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000006060039",
+          "name": "Woolworths Cream Cheese Block 250g",
+          "price": 330,
+          "wasPrice": null,
+          "promotionInfo": null,
+          "isAvailable": true,
+          "unitPriceDescription": "$13.20 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 1,
+              "aisleSide": "left",
+              "bayNumber": 1,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Dairy, Eggs & Fridge",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Cheese",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Cooking Cheese",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000452086",
+          "name": "Woolworths Fetta Danish Style 200g",
+          "price": 300,
+          "wasPrice": "Range was $3.20 25/08/2026",
+          "promotionInfo": {
+            "type": "LOWER_SHELF_PRICE",
+            "label": "LOWER SHELF PRICE"
+          },
+          "isAvailable": true,
+          "unitPriceDescription": "$15.00 per 1kg",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 1,
+              "aisleSide": "left",
+              "bayNumber": 1,
+              "location": "DAIRY"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

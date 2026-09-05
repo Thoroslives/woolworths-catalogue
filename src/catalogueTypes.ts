@@ -6,7 +6,9 @@
  * they are worth a call each and only for the product somebody chose.
  */
 
-export interface CatalogueEntry {
+import type { ProductPromotion } from "./types.js";
+
+export interface CatalogueEntry extends ProductPromotion {
   storeNumber: string;
   stockcode: string;
   /** "Beyond Meat Beyond Burger Plant Based Patties 226g 2 Pack". */
@@ -52,6 +54,12 @@ export function parseCatalogueEntry(value: unknown): CatalogueEntry {
   const name = text("name");
   const price = row.price;
   if (price !== null && typeof price !== "number") throw new Error("Sweep line price is not a number or null.");
+  // Read the way every other optional string is, so a sweep file written
+  // before promotions existed still parses and simply carries none.
+  const wasPrice = row.wasPrice;
+  if (wasPrice !== undefined && wasPrice !== null && typeof wasPrice !== "number") {
+    throw new Error("Sweep line wasPrice is not a number or null.");
+  }
   if (typeof row.isAvailable !== "boolean") throw new Error("Sweep line has no isAvailable.");
   return {
     storeNumber,
@@ -60,6 +68,10 @@ export function parseCatalogueEntry(value: unknown): CatalogueEntry {
     price,
     isAvailable: row.isAvailable,
     unitPriceDescription: textOrNull("unitPriceDescription"),
+    wasPriceDisplay: textOrNull("wasPriceDisplay"),
+    wasPrice: wasPrice ?? null,
+    promotionType: textOrNull("promotionType"),
+    promotionLabel: textOrNull("promotionLabel"),
     categoryId: text("categoryId"),
     categoryLevel1: textOrNull("categoryLevel1"),
     categoryLevel2: textOrNull("categoryLevel2"),

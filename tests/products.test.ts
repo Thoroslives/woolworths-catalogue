@@ -88,6 +88,9 @@ describe("the degraded detector", () => {
       ["details-bad-serving-column", PRODUCT_DETAILS_QUERY],
       ["details-never-carried", PRODUCT_DETAILS_QUERY],
       ["category-vegetarian-five", PRODUCTS_BY_CATEGORY_QUERY],
+      ["details-on-special", PRODUCT_DETAILS_QUERY],
+      ["details-lower-shelf-price", PRODUCT_DETAILS_QUERY],
+      ["category-cheese-promotions", PRODUCTS_BY_CATEGORY_QUERY],
     ];
 
     for (const [name, query] of cases) {
@@ -197,6 +200,12 @@ describe("mapProductByStockcode", () => {
       name: "Macro Firm Tofu 450g",
       price: 2.8,
       unitPriceDescription: "$6.22 per 1kg",
+      // Recorded before the promotion fields were asked for, so a card
+      // carrying none reads as none rather than as undefined.
+      wasPriceDisplay: null,
+      wasPrice: null,
+      promotionType: null,
+      promotionLabel: null,
       packDisplay: "450g",
       packAmount: 450,
       packUnit: "g",
@@ -786,5 +795,103 @@ describe("the test suite itself", () => {
       expect(source, name).not.toContain(host);
       expect(source, name).not.toContain(fetchingModule);
     }
+  });
+});
+
+/**
+ * Three fixtures recorded at store 7220 on 2026-09-06, which is a different
+ * shop from the one the rest of the suite uses. The store number is handed to
+ * the mapper rather than read out of the payload, so nothing here turns on
+ * which shop it was -- but a recording should say where it came from.
+ */
+describe("what the tag says beyond the price", () => {
+  const PROMOTION_STORE = "7220";
+
+  it("reads a real special, and the saving it states", () => {
+    const row = mapProductByStockcode(fixture("details-on-special"), "263094", PROMOTION_STORE);
+
+    expect(row).toMatchObject({
+      name: "Original Juice Co Black Label Orange Juice Pulp Free 1.5L",
+      price: 6.3,
+      wasPriceDisplay: "Was $7.00",
+      wasPrice: 7,
+      promotionType: "SPECIAL",
+      promotionLabel: "SAVE $0.70",
+    });
+    // The label is the saving already worked out, so nothing has to subtract
+    // one price from the other to show it.
+    expect(row.wasPrice! - row.price!).toBeCloseTo(0.7, 2);
+  });
+
+  it("reads a permanent drop as what it is, and not as a special", () => {
+    // "LOWER SHELF PRICE" is not going back up, so it is not something to
+    // hurry for. Anything treating every promotion alike would say it was.
+    expect(mapProductByStockcode(fixture("details-lower-shelf-price"), "491820", PROMOTION_STORE))
+      .toMatchObject({
+        name: "Hillview Tasty Shredded Cheese 700g",
+        price: 8.5,
+        wasPriceDisplay: "Was $9.30 25/08/2026",
+        wasPrice: 9.3,
+        promotionType: "LOWER_SHELF_PRICE",
+      });
+  });
+
+  it("does not read the date in a was-price as part of the money", () => {
+    // "Was $9.30 25/08/2026" carries the day the shelf price changed. Reading
+    // the trailing digits would answer a price in the thousands.
+    const row = mapProductByStockcode(fixture("details-lower-shelf-price"), "491820", PROMOTION_STORE);
+    expect(row.wasPrice).toBe(9.3);
+  });
+
+  it("keeps 'Range was' as written, because it is not this product's own price", () => {
+    const rows = mapProductsByCategory(fixture("category-cheese-promotions"), PROMOTION_STORE);
+    const slices = rows.find((row) => row.name === "Woolworths Tasty Cheese Slices 500g");
+
+    expect(slices).toMatchObject({
+      wasPriceDisplay: "Range was $7.90 14/04/2026",
+      wasPrice: 7.9,
+    });
+  });
+
+  it("says nothing about a product carrying no promotion", () => {
+    const rows = mapProductsByCategory(fixture("category-cheese-promotions"), PROMOTION_STORE);
+    const plain = rows.find((row) => row.name === "Woolworths Spreadable Cream Cheese 250g");
+
+    expect(plain).toMatchObject({
+      wasPriceDisplay: null,
+      wasPrice: null,
+      promotionType: null,
+      promotionLabel: null,
+    });
+  });
+
+  it("reads an everyday low price as a label with no old price behind it", () => {
+    // The third kind, and the commonest: a claim about the price rather than a
+    // change to it. Reading it as a discount would mark most of a shop.
+    const rows = mapProductsByCategory(fixture("category-cheese-promotions"), PROMOTION_STORE);
+    const everyday = rows.find((row) => row.name === "Hillview Original Cheese Slices IWS 432g");
+
+    expect(everyday).toMatchObject({
+      promotionType: "LOW_PRICE",
+      promotionLabel: "EVERYDAY LOW PRICE",
+      wasPrice: null,
+    });
+  });
+
+  it("carries the same reading through a sweep page", () => {
+    const category = findCategoryById("1_B7EF010");
+    const page = mapCategoryPage(fixture("category-cheese-promotions"), PROMOTION_STORE, category!);
+    const shredded = page.entries.find((entry) => entry.stockcode === "491820");
+
+    expect(shredded).toMatchObject({
+      wasPrice: 9.3,
+      promotionType: "LOWER_SHELF_PRICE",
+    });
+  });
+
+  it("never reads a zero or an empty tag as a price", () => {
+    expect(mapProductCard({ wasPrice: "Was $0.00" } as RawProductCard, "7220").wasPrice).toBeNull();
+    expect(mapProductCard({ wasPrice: "   " } as RawProductCard, "7220").wasPriceDisplay).toBeNull();
+    expect(mapProductCard({} as RawProductCard, "7220").promotionType).toBeNull();
   });
 });

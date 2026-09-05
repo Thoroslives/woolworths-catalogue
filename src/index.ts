@@ -39,4 +39,11 @@ export type { LeafCategory } from "./categories.js";
 export { parsePackSize } from "./packSize.js";
 export { normaliseStockcode } from "./productMapper.js";
 export type { Macros, ProductNutrition } from "./nutrition.js";
-export type { PackSize, PackUnit, ProductAvailability, ProductLocation, ProductRow } from "./types.js";
+export type {
+  PackSize,
+  PackUnit,
+  ProductAvailability,
+  ProductLocation,
+  ProductPromotion,
+  ProductRow,
+} from "./types.js";

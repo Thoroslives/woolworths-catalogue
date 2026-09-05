@@ -5,12 +5,16 @@ these files are the whole of what the suite knows about the shop.
 
 The smoke script recorded each one off the live gateway. Most were recorded on 2026-08-02 against
 one store, with a Sydney store as the control. The store locator was recorded on 2026-09-04
-against postcode 3000:
+against postcode 3000, and the three promotion files on 2026-09-06 against store 7220, which is
+neither of the other two:
 
 ```
 npm run smoke -- --store <store> --stockcode 23038 --record details-in-stock-perimeter
 npm run smoke -- --store <store> --category 1_2DDBF53 --page-size 5 --record category-vegetarian-five
 npm run smoke -- --postcode 3000 --record store-locator-3000
+npm run smoke -- --store 7220 --stockcode 263094 --record details-on-special
+npm run smoke -- --store 7220 --stockcode 491820 --record details-lower-shelf-price
+npm run smoke -- --store 7220 --category 1_B7EF010 --page-size 12 --record category-cheese-promotions
 ```
 
 The two `search-*` files are the website's search, two plain GETs on www.woolworths.com.au. That
@@ -31,6 +35,9 @@ The smoke script no longer has a `--search` flag. The files stay because they re
 | `details-not-ranged-control-1248.json` | Macro Plain Tempeh 88186 at the control store | The same stockcode on a shelf at another store |
 | `details-countable-pack.json` | Free Range Eggs 582117 | "600g 12 Pack": a countable pack that must not be weighed |
 | `details-bad-serving-column.json` | Macro Satay Tofu 748945 | A 200 g pack declaring a 2.0 g serving. Woolworths' own data, and wrong |
+| `details-on-special.json` | Original Juice Co Orange Juice 263094 | A real special: $6.30, "Was $7.00", `SPECIAL`, "SAVE $0.70" |
+| `details-lower-shelf-price.json` | Hillview Tasty Shredded Cheese 491820 | A permanent drop, not a special: "Was $9.30 25/08/2026", `LOWER_SHELF_PRICE` |
+| `category-cheese-promotions.json` | Cheese, twelve cards | All three promotion kinds beside products carrying none, and all three ways a was-price is written |
 | `category-vegetarian.json` | Vegetarian & Meat Free, page 1 | A full category page at the recorded store |
 | `category-vegetarian-five.json` | Vegetarian & Meat Free, page 1 | The same read at five cards, with aisle, bay and price |
 | `store-locator-3000.json` | Postcode 3000 | The website's store locator: QV 3304 first, and the shops around it |
@@ -47,6 +54,17 @@ The smoke script no longer has a `--search` flag. The files stay because they re
   `000000000000023038` answers. The padding goes on at the wire and comes off in the mapper.
 - **`ProductCard` has no `brand`, no `packageSize` and no `status`.** The pack size is parsed out of
   the product name, which is where Woolworths puts it.
+- **`wasPrice` is a sentence, not a number, and it is in dollars.** "Was $7.00", "Was $10.50
+  05/03/2026", "Range was $7.90 14/04/2026". Everything else about a price on this wire is cents,
+  so dividing this one by a hundred turns seven dollars into seven cents. The trailing date is the
+  day the shelf price changed and must not be read as money.
+- **`promotionInfo` says which of three things a tag is, and only one is a special.** `SPECIAL` is
+  temporary and its `label` states the saving outright; `LOWER_SHELF_PRICE` is a permanent drop;
+  `LOW_PRICE` is "EVERYDAY LOW PRICE" with no was-price and no change. The card's own scalar
+  `promotionType` field answered null on every product sampled, so `promotionInfo.type` is the one
+  that says anything.
+- **`memberPriceInfo { title subtitle }` exists and answered null throughout.** Presumably it wants
+  a signed-in member. It is not asked for, rather than asked for and always empty.
 - **A card names its own shelf, wherever it is read from.** `categories` is a field on `ProductCard`.
   So `productDetails` answers the three level path even for a stockcode the store has never carried.
   `details-not-ranged.json` names Vegetarian & Meat Free. That resolves to `1_2DDBF53`, and

@@ -86,9 +86,33 @@ npm run sweep -- --store 3304 --out sweep.jsonl
 ```
 
 One JSON object per line, with `storeNumber`, `stockcode`, `name`, `price` in dollars,
-`isAvailable`, `unitPriceDescription`, `categoryId`, `categoryLevel1`, `categoryLevel2`,
+`isAvailable`, `unitPriceDescription`, `wasPriceDisplay`, `wasPrice`, `promotionType`,
+`promotionLabel`, `categoryId`, `categoryLevel1`, `categoryLevel2`,
 `categoryLevel3` and `locationText`. A product sits on
 several shelves, so expect about four rows per product and dedupe on `stockcode` if you want one.
+
+The `jq` and SQL below load a subset of those columns and predate the promotion fields; add them
+if you want them in the table.
+
+### What a promotion says
+
+`promotionType` carries three different things and only one of them is a special. Measured over
+108 products in five categories at one store on 2026-09-06:
+
+| Count | `promotionType` | What it means |
+|---|---|---|
+| 47 | `LOW_PRICE` | "EVERYDAY LOW PRICE". A claim about the price, not a change to it. No was-price. |
+| 37 | none | Ordinary. |
+| 16 | `LOWER_SHELF_PRICE` | A permanent drop. The was-price carries the date it dropped, and it is not going back up. |
+| 8 | `SPECIAL` | A real, temporary special. `promotionLabel` states the saving: "SAVE $0.70". |
+
+So ranking or marking on "carries a promotion" flags two thirds of a shop. `SPECIAL` is the one
+worth hurrying for.
+
+`wasPriceDisplay` is the tag as written — "Was $7.00", "Was $10.50 05/03/2026", "Range was $7.90
+14/04/2026" — and `wasPrice` is the dollars read out of it. Both are kept for the reason
+`packDisplay` is kept beside `packAmount`: "Range was" is the range's old price rather than this
+product's own, and a bare number cannot say so.
 
 The default reads all 1,475 leaf categories, because it is the only sweep proved complete. Measured
 at one store on 2026-08-03 it wrote 130,534 rows carrying 31,647 distinct products in thirty one

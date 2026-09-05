@@ -11,6 +11,10 @@ function entry(stockcode: string, name: string, extra: Partial<CatalogueEntry> =
     price: 2.5,
     isAvailable: true,
     unitPriceDescription: null,
+    wasPriceDisplay: null,
+    wasPrice: null,
+    promotionType: null,
+    promotionLabel: null,
     categoryId: "1_X",
     categoryLevel1: "Fruit & Veg",
     categoryLevel2: null,
@@ -91,8 +95,23 @@ describe("parseCatalogueEntry", () => {
       storeNumber: "3304", stockcode: "961095", name: "Little Ones Baby Wipes 80pk", price: 2,
       isAvailable: true, unitPriceDescription: "$2.50 per 100EA", categoryId: "1_717A94B",
       categoryLevel1: "Baby", categoryLevel2: "Wipes & Changing", categoryLevel3: "Wipes", locationText: "Aisle 8",
+      wasPriceDisplay: null, wasPrice: null, promotionType: null, promotionLabel: null,
     };
     expect(parseCatalogueEntry(line)).toEqual(line);
+  });
+
+  it("reads a sweep file written before promotions as carrying none", () => {
+    // Every sweep on disk predates these four fields. Refusing those files, or
+    // handing back undefined for them, would make this a breaking change for
+    // the sake of four nulls.
+    const older = {
+      storeNumber: "3304", stockcode: "961095", name: "Little Ones Baby Wipes 80pk", price: 2,
+      isAvailable: true, unitPriceDescription: "$2.50 per 100EA", categoryId: "1_717A94B",
+      categoryLevel1: "Baby", categoryLevel2: "Wipes & Changing", categoryLevel3: "Wipes", locationText: "Aisle 8",
+    };
+    expect(parseCatalogueEntry(older)).toMatchObject({
+      wasPriceDisplay: null, wasPrice: null, promotionType: null, promotionLabel: null,
+    });
   });
 
   it("names the missing field on a line from an older shape", () => {

@@ -52,6 +52,8 @@ const PRODUCT_CARD_FIELDS = `
         productId
         name
         price
+        wasPrice
+        promotionInfo { type label }
         isAvailable
         unitPriceDescription
         inStoreDetails { locationText locationType }

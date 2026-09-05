@@ -1,0 +1,100 @@
+{
+  "data": {
+    "productDetails": {
+      "feed": [
+        {
+          "__typename": "ProductCard",
+          "categories": [
+            {
+              "name": "Drinks",
+              "categoryLevel": 1
+            },
+            {
+              "name": "Chilled Drinks",
+              "categoryLevel": 2
+            },
+            {
+              "name": "Fruit Drink & Juice",
+              "categoryLevel": 3
+            }
+          ],
+          "productId": "000000000000263094",
+          "name": "Original Juice Co Black Label Orange Juice Pulp Free 1.5L",
+          "price": 630,
+          "wasPrice": "Was $7.00",
+          "promotionInfo": {
+            "type": "SPECIAL",
+            "label": "SAVE $0.70"
+          },
+          "isAvailable": true,
+          "unitPriceDescription": "$4.20 per 1l",
+          "inStoreDetails": {
+            "locationText": "Dairy",
+            "locationType": "AVAILABLE"
+          },
+          "inStoreLocation": {
+            "details": {
+              "aisleNumber": 1,
+              "aisleSide": "right",
+              "bayNumber": 6,
+              "location": "DAIRY"
+            }
+          }
+        },
+        {
+          "__typename": "ProductNutritionInfo",
+          "title": "Nutrition information",
+          "servingSize": "Serving size: 200.00ml",
+          "servingsPerPack": "Servings per package: 7.50",
+          "tableHeaderRow": [
+            " ",
+            "Quantity Per Serving",
+            "Quantity Per 100g / 100mL"
+          ],
+          "tableRows": [
+            [
+              "Energy",
+              "296.00kJ",
+              "148.00kJ"
+            ],
+            [
+              "Protein",
+              "1.00g",
+              "0.50g"
+            ],
+            [
+              "Fat, Total",
+              "0.20g",
+              "0.10g"
+            ],
+            [
+              "– Saturated",
+              "0.00g",
+              "0.00g"
+            ],
+            [
+              "Carbohydrate",
+              "15.80g",
+              "7.90g"
+            ],
+            [
+              "– Sugars",
+              "14.40g",
+              "7.20g"
+            ],
+            [
+              "Dietary Fibre",
+              "0g",
+              "0g"
+            ],
+            [
+              "Sodium",
+              "6.00mg",
+              "3.00mg"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

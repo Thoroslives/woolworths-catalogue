@@ -2,6 +2,7 @@ import { fetchWoolworths } from "./client.js";
 import { foodLeafCategories, type LeafCategory } from "./categories.js";
 import { PRODUCTS_BY_CATEGORY_QUERY } from "./queries.js";
 import type { CatalogueEntry } from "./catalogueTypes.js";
+import { readPromotion } from "./productMapper.js";
 
 /**
  * Walking one store's catalogue, page by page, into whatever the caller keeps.
@@ -46,6 +47,8 @@ interface RawCard {
   price?: number | null;
   isAvailable?: boolean | null;
   unitPriceDescription?: string | null;
+  wasPrice?: string | null;
+  promotionInfo?: { type?: string | null; label?: string | null } | null;
   inStoreDetails?: { locationText?: string | null } | null;
   categories?: { name?: string | null; categoryLevel?: number | null }[] | null;
 }
@@ -105,6 +108,9 @@ export function mapCategoryPage(
       price: typeof card.price === "number" ? card.price / 100 : null,
       isAvailable: card.isAvailable === true,
       unitPriceDescription: card.unitPriceDescription?.trim() || null,
+      // The same reader the product read uses, so a special means the same
+      // thing whichever call found it.
+      ...readPromotion(card),
       categoryId: category.categoryId,
       categoryLevel1: atLevel(1) ?? category.level1,
       categoryLevel2: atLevel(2) ?? category.level2,

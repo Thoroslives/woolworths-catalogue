@@ -1,6 +1,11 @@
 import { mapNutrition } from "./nutrition.js";
 import { parsePackSize } from "./packSize.js";
-import { ProductAvailability, ProductLocation, ProductRow } from "./types.js";
+import {
+  ProductAvailability,
+  ProductLocation,
+  ProductPromotion,
+  ProductRow,
+} from "./types.js";
 
 /**
  * The seam between Woolworths and this project. A recorded response goes in and a
@@ -28,6 +33,9 @@ export interface RawProductCard {
   price?: number | null;
   isAvailable?: boolean | null;
   unitPriceDescription?: string | null;
+  /** Dollars, in words: "Was $7.00". Not cents, and not a number. */
+  wasPrice?: string | null;
+  promotionInfo?: { type?: string | null; label?: string | null } | null;
   inStoreDetails?: { locationText?: string | null; locationType?: string | null } | null;
   inStoreLocation?: { details?: RawLocationDetails | null } | null;
 }
@@ -142,6 +150,7 @@ export function mapProductCard(card: RawProductCard, storeNumber: string): Produ
     name: card.name?.trim() ?? "",
     price: readPrice(card.price),
     unitPriceDescription: card.unitPriceDescription?.trim() || null,
+    ...readPromotion(card),
     // The card carries no pack size field, so the name is where the pack is.
     ...parsePackSize(card.name),
     availability,
@@ -162,6 +171,10 @@ export function notRanged(stockcode: string, storeNumber: string): ProductRow {
     name: "",
     price: null,
     unitPriceDescription: null,
+    wasPriceDisplay: null,
+    wasPrice: null,
+    promotionType: null,
+    promotionLabel: null,
     packDisplay: null,
     packAmount: null,
     packUnit: null,
@@ -197,6 +210,33 @@ export function normaliseStockcode(productId: string | number | null | undefined
 export function readPrice(cents: number | null | undefined): number | null {
   if (typeof cents !== "number" || !Number.isFinite(cents) || cents <= 0) return null;
   return Math.round(cents) / 100;
+}
+
+/** The first dollar figure in a was-price tag, e.g. "Was $10.50 05/03/2026". */
+const WAS_PRICE = /\$\s*(\d+(?:\.\d+)?)/;
+
+/**
+ * What the tag says beyond the price, kept as written and as a number.
+ *
+ * The card also carries a scalar `promotionType`, which answered null on every
+ * product sampled. `promotionInfo.type` is the one that says anything, so it
+ * is the one read here, and the flat field is named for what it holds rather
+ * than for where it came from.
+ *
+ * A zero or an unreadable tag is no was-price rather than a free one, the same
+ * rule `readPrice` follows.
+ */
+export function readPromotion(card: RawProductCard): ProductPromotion {
+  const display = card.wasPrice?.trim() || null;
+  const found = display ? WAS_PRICE.exec(display) : null;
+  const dollars = found ? Number(found[1]) : NaN;
+
+  return {
+    wasPriceDisplay: display,
+    wasPrice: Number.isFinite(dollars) && dollars > 0 ? dollars : null,
+    promotionType: card.promotionInfo?.type?.trim() || null,
+    promotionLabel: card.promotionInfo?.label?.trim() || null,
+  };
 }
 
 /**
