@@ -213,8 +213,15 @@ export function readPrice(cents: number | null | undefined): number | null {
  * The first dollar figure in a was-price tag, e.g. "Was $10.50 05/03/2026".
  * Thousands may arrive with a separator, "Was $1,299.00", so the group takes
  * the commas and the caller strips them before reading the number.
+ *
+ * The separated form needs `+` and not `*` on its group. With `*` it also
+ * matches a number carrying NO separator, and matches only the first three
+ * digits of it, because alternation takes the first branch that succeeds
+ * rather than the longest: "Was $1299.00" then read as $129. The separated
+ * branch has to require a separator so an unseparated number falls through to
+ * the plain branch whole.
  */
-const WAS_PRICE = /\$\s*(\d{1,3}(?:,\d{3})*(?:\.\d+)?|\d+(?:\.\d+)?)/;
+const WAS_PRICE = /\$\s*(\d{1,3}(?:,\d{3})+(?:\.\d+)?|\d+(?:\.\d+)?)/;
 
 /**
  * What the tag says beyond the price, kept as written and as a number.
