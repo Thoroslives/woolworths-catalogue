@@ -37,7 +37,7 @@ The smoke script no longer has a `--search` flag. The files stay because they re
 | `details-bad-serving-column.json` | Macro Satay Tofu 748945 | A 200 g pack declaring a 2.0 g serving. Woolworths' own data, and wrong |
 | `details-on-special.json` | Original Juice Co Orange Juice 263094 | A real special: $6.30, "Was $7.00", `SPECIAL`, "SAVE $0.70" |
 | `details-lower-shelf-price.json` | Hillview Tasty Shredded Cheese 491820 | A permanent drop, not a special: "Was $9.30 25/08/2026", `LOWER_SHELF_PRICE` |
-| `category-cheese-promotions.json` | Cheese, twelve cards | All three promotion kinds beside products carrying none, and all three ways a was-price is written |
+| `category-cheese-promotions.json` | Cheese, twelve cards | Seven permanent drops and one everyday low price beside four products carrying none, with the dated and "Range was" forms of a was-price. No special on the page that day |
 | `category-vegetarian.json` | Vegetarian & Meat Free, page 1 | A full category page at the recorded store |
 | `category-vegetarian-five.json` | Vegetarian & Meat Free, page 1 | The same read at five cards, with aisle, bay and price |
 | `store-locator-3000.json` | Postcode 3000 | The website's store locator: QV 3304 first, and the shops around it |

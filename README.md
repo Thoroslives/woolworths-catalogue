@@ -109,8 +109,8 @@ if you want them in the table.
 So ranking or marking on "carries a promotion" flags two thirds of a shop. `SPECIAL` is the one
 worth hurrying for.
 
-`wasPriceDisplay` is the tag as written — "Was $7.00", "Was $10.50 05/03/2026", "Range was $7.90
-14/04/2026" — and `wasPrice` is the dollars read out of it. Both are kept for the reason
+`wasPriceDisplay` is the tag as written, such as "Was $7.00", "Was $10.50 05/03/2026" or "Range
+was $7.90 14/04/2026", and `wasPrice` is the dollars read out of it. Both are kept for the reason
 `packDisplay` is kept beside `packAmount`: "Range was" is the range's old price rather than this
 product's own, and a bare number cannot say so.
 

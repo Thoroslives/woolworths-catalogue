@@ -818,9 +818,6 @@ describe("what the tag says beyond the price", () => {
       promotionType: "SPECIAL",
       promotionLabel: "SAVE $0.70",
     });
-    // The label is the saving already worked out, so nothing has to subtract
-    // one price from the other to show it.
-    expect(row.wasPrice! - row.price!).toBeCloseTo(0.7, 2);
   });
 
   it("reads a permanent drop as what it is, and not as a special", () => {
@@ -836,11 +833,16 @@ describe("what the tag says beyond the price", () => {
       });
   });
 
-  it("does not read the date in a was-price as part of the money", () => {
-    // "Was $9.30 25/08/2026" carries the day the shelf price changed. Reading
-    // the trailing digits would answer a price in the thousands.
-    const row = mapProductByStockcode(fixture("details-lower-shelf-price"), "491820", PROMOTION_STORE);
-    expect(row.wasPrice).toBe(9.3);
+  it("reads the money out of every way the tag is written, and nothing else", () => {
+    // The trailing date is the day the shelf price changed, and a thousands
+    // separator is part of the figure. Reading either one wrong answers a
+    // price out by orders of magnitude.
+    const wasPrice = (tag: string) => mapProductCard({ wasPrice: tag } as RawProductCard, "7220").wasPrice;
+    expect(wasPrice("Was $7.00")).toBe(7);
+    expect(wasPrice("Was $9.30 25/08/2026")).toBe(9.3);
+    expect(wasPrice("Range was $7.90 14/04/2026")).toBe(7.9);
+    expect(wasPrice("Was $1,299.00")).toBe(1299);
+    expect(wasPrice("Was $12,000")).toBe(12000);
   });
 
   it("keeps 'Range was' as written, because it is not this product's own price", () => {
@@ -886,6 +888,26 @@ describe("what the tag says beyond the price", () => {
     expect(shredded).toMatchObject({
       wasPrice: 9.3,
       promotionType: "LOWER_SHELF_PRICE",
+    });
+  });
+
+  it("carries a special through a sweep page", () => {
+    // The recorded cheese page held no special that day, so one card is
+    // rewritten to carry the shape `details-on-special` recorded.
+    const page = structuredClone(fixture("category-cheese-promotions")) as {
+      data: { productsByCategory: { productsFeed: RawProductCard[] } };
+    };
+    const card = page.data.productsByCategory.productsFeed.find((c) => String(c.productId).endsWith("491820"))!;
+    card.wasPrice = "Was $7.00";
+    card.promotionInfo = { type: "SPECIAL", label: "SAVE $0.70" };
+
+    const category = findCategoryById("1_B7EF010");
+    const entries = mapCategoryPage(page, PROMOTION_STORE, category!).entries;
+    expect(entries.find((entry) => entry.stockcode === "491820")).toMatchObject({
+      wasPriceDisplay: "Was $7.00",
+      wasPrice: 7,
+      promotionType: "SPECIAL",
+      promotionLabel: "SAVE $0.70",
     });
   });
 

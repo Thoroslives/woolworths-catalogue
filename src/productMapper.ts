@@ -171,10 +171,7 @@ export function notRanged(stockcode: string, storeNumber: string): ProductRow {
     name: "",
     price: null,
     unitPriceDescription: null,
-    wasPriceDisplay: null,
-    wasPrice: null,
-    promotionType: null,
-    promotionLabel: null,
+    ...readPromotion({}),
     packDisplay: null,
     packAmount: null,
     packUnit: null,
@@ -212,8 +209,12 @@ export function readPrice(cents: number | null | undefined): number | null {
   return Math.round(cents) / 100;
 }
 
-/** The first dollar figure in a was-price tag, e.g. "Was $10.50 05/03/2026". */
-const WAS_PRICE = /\$\s*(\d+(?:\.\d+)?)/;
+/**
+ * The first dollar figure in a was-price tag, e.g. "Was $10.50 05/03/2026".
+ * Thousands may arrive with a separator, "Was $1,299.00", so the group takes
+ * the commas and the caller strips them before reading the number.
+ */
+const WAS_PRICE = /\$\s*(\d{1,3}(?:,\d{3})*(?:\.\d+)?|\d+(?:\.\d+)?)/;
 
 /**
  * What the tag says beyond the price, kept as written and as a number.
@@ -229,7 +230,7 @@ const WAS_PRICE = /\$\s*(\d+(?:\.\d+)?)/;
 export function readPromotion(card: RawProductCard): ProductPromotion {
   const display = card.wasPrice?.trim() || null;
   const found = display ? WAS_PRICE.exec(display) : null;
-  const dollars = found ? Number(found[1]) : NaN;
+  const dollars = found ? Number(found[1].replace(/,/g, "")) : NaN;
 
   return {
     wasPriceDisplay: display,

@@ -2,7 +2,7 @@ import { fetchWoolworths } from "./client.js";
 import { foodLeafCategories, type LeafCategory } from "./categories.js";
 import { PRODUCTS_BY_CATEGORY_QUERY } from "./queries.js";
 import type { CatalogueEntry } from "./catalogueTypes.js";
-import { readPromotion } from "./productMapper.js";
+import { readPromotion, type RawProductCard } from "./productMapper.js";
 
 /**
  * Walking one store's catalogue, page by page, into whatever the caller keeps.
@@ -40,15 +40,13 @@ const PAGE_SIZE = 36;
  */
 const MAX_PAGES_PER_CATEGORY = 400;
 
-interface RawCard {
+interface RawCard extends Pick<RawProductCard, "wasPrice" | "promotionInfo"> {
   __typename?: string;
   productId?: string | null;
   name?: string | null;
   price?: number | null;
   isAvailable?: boolean | null;
   unitPriceDescription?: string | null;
-  wasPrice?: string | null;
-  promotionInfo?: { type?: string | null; label?: string | null } | null;
   inStoreDetails?: { locationText?: string | null } | null;
   categories?: { name?: string | null; categoryLevel?: number | null }[] | null;
 }
