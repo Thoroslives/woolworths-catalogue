@@ -1,0 +1,466 @@
+{
+ "data": {
+  "productsByCategory": {
+   "totalNumberOfProducts": 123,
+   "nextPage": 2,
+   "productsFeed": [
+    {
+     "__typename": "ProductCard",
+     "categories": [
+      {
+       "name": "Freezer",
+       "categoryLevel": 1
+      },
+      {
+       "name": "Frozen Meals",
+       "categoryLevel": 2
+      },
+      {
+       "name": "Frozen Meals",
+       "categoryLevel": 3
+      }
+     ],
+     "productId": "000000000000388386",
+     "name": "WW Beef Lasagne 375g",
+     "price": 420,
+     "wasPrice": null,
+     "promotionInfo": null,
+     "multiBuyPriceInfo": {
+      "price": "2 for $8.00",
+      "unitPrice": "$1.07 per 100G"
+     },
+     "isAvailable": true,
+     "unitPriceDescription": "$1.12 per 100g",
+     "inStoreDetails": {
+      "locationText": "Freezer Section",
+      "locationType": "AVAILABLE"
+     },
+     "inStoreLocation": {
+      "details": {
+       "aisleNumber": 16,
+       "aisleSide": "left",
+       "bayNumber": 25,
+       "location": "FREEZER SECTION"
+      }
+     }
+    },
+    {
+     "__typename": "ProductCard",
+     "categories": [
+      {
+       "name": "Freezer",
+       "categoryLevel": 1
+      },
+      {
+       "name": "Frozen Meals",
+       "categoryLevel": 2
+      },
+      {
+       "name": "Frozen Meals",
+       "categoryLevel": 3
+      }
+     ],
+     "productId": "000000000000070787",
+     "name": "Woolworths Spaghetti Bolognese 375g",
+     "price": 420,
+     "wasPrice": null,
+     "promotionInfo": null,
+     "multiBuyPriceInfo": {
+      "price": "2 for $8.00",
+      "unitPrice": "$1.07 per 100G"
+     },
+     "isAvailable": true,
+     "unitPriceDescription": "$1.12 per 100g",
+     "inStoreDetails": {
+      "locationText": "Freezer Section",
+      "locationType": "AVAILABLE"
+     },
+     "inStoreLocation": {
+      "details": {
+       "aisleNumber": 16,
+       "aisleSide": "left",
+       "bayNumber": 25,
+       "location": "FREEZER SECTION"
+      }
+     }
+    },
+    {
+     "__typename": "ProductCard",
+     "categories": [
+      {
+       "name": "Freezer",
+       "categoryLevel": 1
+      },
+      {
+       "name": "Frozen Meals",
+       "categoryLevel": 2
+      },
+      {
+       "name": "Frozen Meals",
+       "categoryLevel": 3
+      }
+     ],
+     "productId": "000000000006054164",
+     "name": "WW Frozen Macaroni Cheese 375g",
+     "price": 420,
+     "wasPrice": null,
+     "promotionInfo": null,
+     "multiBuyPriceInfo": {
+      "price": "2 for $8.00",
+      "unitPrice": "$1.07 per 100G"
+     },
+     "isAvailable": true,
+     "unitPriceDescription": "$1.12 per 100g",
+     "inStoreDetails": {
+      "locationText": "Freezer Section",
+      "locationType": "AVAILABLE"
+     },
+     "inStoreLocation": {
+      "details": {
+       "aisleNumber": 16,
+       "aisleSide": "left",
+       "bayNumber": 25,
+       "location": "FREEZER SECTION"
+      }
+     }
+    },
+    {
+     "__typename": "ProductCard",
+     "categories": [
+      {
+       "name": "Freezer",
+       "categoryLevel": 1
+      },
+      {
+       "name": "Frozen Meals",
+       "categoryLevel": 2
+      },
+      {
+       "name": "Frozen Meals",
+       "categoryLevel": 3
+      }
+     ],
+     "productId": "000000000000544366",
+     "name": "Annabel Karmel Yummy Mac & Cheese Pasta 200g",
+     "price": 450,
+     "wasPrice": null,
+     "promotionInfo": null,
+     "multiBuyPriceInfo": null,
+     "isAvailable": true,
+     "unitPriceDescription": "$2.25 per 100g",
+     "inStoreDetails": {
+      "locationText": "Freezer Section",
+      "locationType": "AVAILABLE"
+     },
+     "inStoreLocation": {
+      "details": {
+       "aisleNumber": 16,
+       "aisleSide": "left",
+       "bayNumber": 25,
+       "location": "FREEZER SECTION"
+      }
+     }
+    },
+    {
+     "__typename": "ProductCard",
+     "categories": [
+      {
+       "name": "Freezer",
+       "categoryLevel": 1
+      },
+      {
+       "name": "Frozen Meals",
+       "categoryLevel": 2
+      },
+      {
+       "name": "Frozen Meals",
+       "categoryLevel": 3
+      }
+     ],
+     "productId": "000000000000089994",
+     "name": "McCain Tuna Mornay 400g",
+     "price": 560,
+     "wasPrice": null,
+     "promotionInfo": null,
+     "multiBuyPriceInfo": null,
+     "isAvailable": true,
+     "unitPriceDescription": "$1.40 per 100g",
+     "inStoreDetails": {
+      "locationText": "Freezer Section",
+      "locationType": "AVAILABLE"
+     },
+     "inStoreLocation": {
+      "details": {
+       "aisleNumber": 16,
+       "aisleSide": "left",
+       "bayNumber": 25,
+       "location": "FREEZER SECTION"
+      }
+     }
+    },
+    {
+     "__typename": "ProductCard",
+     "categories": [
+      {
+       "name": "Freezer",
+       "categoryLevel": 1
+      },
+      {
+       "name": "Frozen Meals",
+       "categoryLevel": 2
+      },
+      {
+       "name": "Frozen Meals",
+       "categoryLevel": 3
+      }
+     ],
+     "productId": "000000000000544364",
+     "name": "Annabel Karmel Beautiful Bolognese Pasta Bake 200g",
+     "price": 450,
+     "wasPrice": null,
+     "promotionInfo": null,
+     "multiBuyPriceInfo": null,
+     "isAvailable": true,
+     "unitPriceDescription": "$2.25 per 100g",
+     "inStoreDetails": {
+      "locationText": "Freezer Section",
+      "locationType": "AVAILABLE"
+     },
+     "inStoreLocation": {
+      "details": {
+       "aisleNumber": 16,
+       "aisleSide": "left",
+       "bayNumber": 25,
+       "location": "FREEZER SECTION"
+      }
+     }
+    },
+    {
+     "__typename": "ProductCard",
+     "categories": [
+      {
+       "name": "Freezer",
+       "categoryLevel": 1
+      },
+      {
+       "name": "Frozen Meals",
+       "categoryLevel": 2
+      },
+      {
+       "name": "Frozen Meals",
+       "categoryLevel": 3
+      }
+     ],
+     "productId": "000000000000694859",
+     "name": "Wow Select Butter Chicken with Rice 350g",
+     "price": 420,
+     "wasPrice": null,
+     "promotionInfo": null,
+     "multiBuyPriceInfo": {
+      "price": "2 for $8.00",
+      "unitPrice": "$1.07 per 100G"
+     },
+     "isAvailable": true,
+     "unitPriceDescription": "$1.12 per 100g",
+     "inStoreDetails": {
+      "locationText": "Freezer Section",
+      "locationType": "AVAILABLE"
+     },
+     "inStoreLocation": {
+      "details": {
+       "aisleNumber": 16,
+       "aisleSide": "left",
+       "bayNumber": 25,
+       "location": "FREEZER SECTION"
+      }
+     }
+    },
+    {
+     "__typename": "ProductCard",
+     "categories": [
+      {
+       "name": "Freezer",
+       "categoryLevel": 1
+      },
+      {
+       "name": "Frozen Meals",
+       "categoryLevel": 2
+      },
+      {
+       "name": "Frozen Meals",
+       "categoryLevel": 3
+      }
+     ],
+     "productId": "000000000000544369",
+     "name": "Annabel Karmel Scrumptious Spaghetti & Meatballs 200g",
+     "price": 450,
+     "wasPrice": null,
+     "promotionInfo": null,
+     "multiBuyPriceInfo": null,
+     "isAvailable": true,
+     "unitPriceDescription": "$2.25 per 100g",
+     "inStoreDetails": {
+      "locationText": "Freezer Section",
+      "locationType": "AVAILABLE"
+     },
+     "inStoreLocation": {
+      "details": {
+       "aisleNumber": 16,
+       "aisleSide": "left",
+       "bayNumber": 25,
+       "location": "FREEZER SECTION"
+      }
+     }
+    },
+    {
+     "__typename": "ProductCard",
+     "categories": [
+      {
+       "name": "Freezer",
+       "categoryLevel": 1
+      },
+      {
+       "name": "Frozen Meals",
+       "categoryLevel": 2
+      },
+      {
+       "name": "Frozen Meals",
+       "categoryLevel": 3
+      }
+     ],
+     "productId": "000000000000022183",
+     "name": "McCain Fettucine Carbonara 375g",
+     "price": 560,
+     "wasPrice": null,
+     "promotionInfo": null,
+     "multiBuyPriceInfo": null,
+     "isAvailable": true,
+     "unitPriceDescription": "$1.49 per 100g",
+     "inStoreDetails": {
+      "locationText": "Freezer Section",
+      "locationType": "AVAILABLE"
+     },
+     "inStoreLocation": {
+      "details": {
+       "aisleNumber": 16,
+       "aisleSide": "left",
+       "bayNumber": 25,
+       "location": "FREEZER SECTION"
+      }
+     }
+    },
+    {
+     "__typename": "ProductCard",
+     "categories": [
+      {
+       "name": "Freezer",
+       "categoryLevel": 1
+      },
+      {
+       "name": "Frozen Meals",
+       "categoryLevel": 2
+      },
+      {
+       "name": "Frozen Meals",
+       "categoryLevel": 3
+      }
+     ],
+     "productId": "000000000000544693",
+     "name": "Annabel Karmel Mild Butter Chicken & Rice 200g",
+     "price": 450,
+     "wasPrice": null,
+     "promotionInfo": null,
+     "multiBuyPriceInfo": null,
+     "isAvailable": true,
+     "unitPriceDescription": "$2.25 per 100g",
+     "inStoreDetails": {
+      "locationText": "Freezer Section",
+      "locationType": "AVAILABLE"
+     },
+     "inStoreLocation": {
+      "details": {
+       "aisleNumber": 16,
+       "aisleSide": "left",
+       "bayNumber": 25,
+       "location": "FREEZER SECTION"
+      }
+     }
+    },
+    {
+     "__typename": "ProductCard",
+     "categories": [
+      {
+       "name": "Freezer",
+       "categoryLevel": 1
+      },
+      {
+       "name": "Frozen Meals",
+       "categoryLevel": 2
+      },
+      {
+       "name": "Frozen Meals",
+       "categoryLevel": 3
+      }
+     ],
+     "productId": "000000000000096822",
+     "name": "McCain Lasagne 400g",
+     "price": 560,
+     "wasPrice": null,
+     "promotionInfo": null,
+     "multiBuyPriceInfo": null,
+     "isAvailable": true,
+     "unitPriceDescription": "$1.40 per 100g",
+     "inStoreDetails": {
+      "locationText": "Freezer Section",
+      "locationType": "AVAILABLE"
+     },
+     "inStoreLocation": {
+      "details": {
+       "aisleNumber": 16,
+       "aisleSide": "left",
+       "bayNumber": 25,
+       "location": "FREEZER SECTION"
+      }
+     }
+    },
+    {
+     "__typename": "ProductCard",
+     "categories": [
+      {
+       "name": "Freezer",
+       "categoryLevel": 1
+      },
+      {
+       "name": "Frozen Meals",
+       "categoryLevel": 2
+      },
+      {
+       "name": "Frozen Meals",
+       "categoryLevel": 3
+      }
+     ],
+     "productId": "000000000000544365",
+     "name": "Annabel Karmel Comforting Cottage Pie 200g",
+     "price": 450,
+     "wasPrice": null,
+     "promotionInfo": null,
+     "multiBuyPriceInfo": null,
+     "isAvailable": true,
+     "unitPriceDescription": "$2.25 per 100g",
+     "inStoreDetails": {
+      "locationText": "Freezer Section",
+      "locationType": "AVAILABLE"
+     },
+     "inStoreLocation": {
+      "details": {
+       "aisleNumber": 16,
+       "aisleSide": "left",
+       "bayNumber": 25,
+       "location": "FREEZER SECTION"
+      }
+     }
+    }
+   ]
+  }
+ }
+}

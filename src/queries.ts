@@ -54,6 +54,7 @@ const PRODUCT_CARD_FIELDS = `
         price
         wasPrice
         promotionInfo { type label }
+        multiBuyPriceInfo { price unitPrice }
         isAvailable
         unitPriceDescription
         inStoreDetails { locationText locationType }

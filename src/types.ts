@@ -68,6 +68,21 @@ export interface ProductPromotion {
   promotionLabel: string | null;
 }
 
+/**
+ * What a multibuy prints beside the ordinary shelf price.
+ *
+ * Both fields are ready-made display strings in dollars, not cents and not
+ * numbers, so they are carried through exactly as the wire writes them. There
+ * is deliberately no quantity here: the wire has no quantity field, and the
+ * count exists only inside `multiBuyPrice` for the consumer to interpret.
+ */
+export interface ProductMultiBuy {
+  /** The complete deal: "2 for $8.00". */
+  multiBuyPrice: string | null;
+  /** The deal's printed rate: "$1.07 per 100G". */
+  multiBuyUnitPrice: string | null;
+}
+
 export interface ProductLocation {
   locationText: string | null;
   locationZone: string | null;
@@ -76,7 +91,7 @@ export interface ProductLocation {
   bayNumber: number | null;
 }
 
-export interface ProductRow extends PackSize, ProductLocation, ProductPromotion {
+export interface ProductRow extends PackSize, ProductLocation, ProductPromotion, ProductMultiBuy {
   stockcode: string;
   storeNumber: string;
   name: string;
