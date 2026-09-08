@@ -843,6 +843,9 @@ describe("what the tag says beyond the price", () => {
     expect(wasPrice("Range was $7.90 14/04/2026")).toBe(7.9);
     expect(wasPrice("Was $1,299.00")).toBe(1299);
     expect(wasPrice("Was $12,000")).toBe(12000);
+    // A thousand with no comma reads whole.
+    expect(wasPrice("Was $1299.00")).toBe(1299);
+    expect(wasPrice("Was $12345.67")).toBe(12345.67);
   });
 
   it("keeps 'Range was' as written, because it is not this product's own price", () => {
