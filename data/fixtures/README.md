@@ -5,8 +5,8 @@ these files are the whole of what the suite knows about the shop.
 
 The smoke script recorded each one off the live gateway. Most were recorded on 2026-08-02 against
 one store, with a Sydney store as the control. The store locator was recorded on 2026-09-04
-against postcode 3000, and the three promotion files on 2026-09-06 against store 7220, which is
-neither of the other two:
+against postcode 3000. The three promotion files were recorded on 2026-09-06 against store 7220,
+which is neither of the other two, and the multibuy file on 2026-09-07 against the same store:
 
 ```
 npm run smoke -- --store <store> --stockcode 23038 --record details-in-stock-perimeter
@@ -15,6 +15,7 @@ npm run smoke -- --postcode 3000 --record store-locator-3000
 npm run smoke -- --store 7220 --stockcode 263094 --record details-on-special
 npm run smoke -- --store 7220 --stockcode 491820 --record details-lower-shelf-price
 npm run smoke -- --store 7220 --category 1_B7EF010 --page-size 12 --record category-cheese-promotions
+npm run smoke -- --store 7220 --category 1_B5E7442 --page-size 12 --record category-single-meals-multibuy
 ```
 
 The two `search-*` files are the website's search, two plain GETs on www.woolworths.com.au. That
@@ -38,6 +39,7 @@ The smoke script no longer has a `--search` flag. The files stay because they re
 | `details-on-special.json` | Original Juice Co Orange Juice 263094 | A real special: $6.30, "Was $7.00", `SPECIAL`, "SAVE $0.70" |
 | `details-lower-shelf-price.json` | Hillview Tasty Shredded Cheese 491820 | A permanent drop, not a special: "Was $9.30 25/08/2026", `LOWER_SHELF_PRICE` |
 | `category-cheese-promotions.json` | Cheese, twelve cards | Seven permanent drops and one everyday low price beside four products carrying none, with the dated and "Range was" forms of a was-price. No special on the page that day |
+| `category-single-meals-multibuy.json` | Single meals, twelve cards | Four products on a "2 for $8.00" multibuy with its "$1.07 per 100G" rate, eight carrying none. No card on the page carries a promotion, so a deal and a promotion are separate facts |
 | `category-vegetarian.json` | Vegetarian & Meat Free, page 1 | A full category page at the recorded store |
 | `category-vegetarian-five.json` | Vegetarian & Meat Free, page 1 | The same read at five cards, with aisle, bay and price |
 | `store-locator-3000.json` | Postcode 3000 | The website's store locator: QV 3304 first, and the shops around it |
@@ -63,6 +65,11 @@ The smoke script no longer has a `--search` flag. The files stay because they re
   `LOW_PRICE` is "EVERYDAY LOW PRICE" with no was-price and no change. The card's own scalar
   `promotionType` field answered null on every product sampled, so `promotionInfo.type` is the one
   that says anything.
+- **`multiBuyPriceInfo { price unitPrice }` is the deal, and it is not the promotion.** Both are
+  ready-made dollar strings, "2 for $8.00" and "$1.07 per 100G", so neither is cents and neither is
+  divided. The wire carries no quantity: the count lives inside the price string. Of 950 products
+  read at one store, 42 carried a deal and none of those 42 carried a `promotionInfo`, so reading
+  the promotion says nothing about the deal.
 - **`memberPriceInfo { title subtitle }` exists and answered null throughout.** Presumably it wants
   a signed-in member. It is not asked for, rather than asked for and always empty.
 - **A card names its own shelf, wherever it is read from.** `categories` is a field on `ProductCard`.

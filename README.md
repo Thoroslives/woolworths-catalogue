@@ -87,11 +87,11 @@ npm run sweep -- --store 3304 --out sweep.jsonl
 
 One JSON object per line, with `storeNumber`, `stockcode`, `name`, `price` in dollars,
 `isAvailable`, `unitPriceDescription`, `wasPriceDisplay`, `wasPrice`, `promotionType`,
-`promotionLabel`, `categoryId`, `categoryLevel1`, `categoryLevel2`,
-`categoryLevel3` and `locationText`. A product sits on
+`promotionLabel`, `multiBuyPrice`, `multiBuyUnitPrice`, `categoryId`, `categoryLevel1`,
+`categoryLevel2`, `categoryLevel3` and `locationText`. A product sits on
 several shelves, so expect about four rows per product and dedupe on `stockcode` if you want one.
 
-The `jq` and SQL below load a subset of those columns and predate the promotion fields; add them
+The `jq` and SQL below load a subset of those columns and predate the promotion and multibuy fields. Add them
 if you want them in the table.
 
 ### What a promotion says
@@ -113,6 +113,14 @@ worth hurrying for.
 was $7.90 14/04/2026", and `wasPrice` is the dollars read out of it. Both are kept for the reason
 `packDisplay` is kept beside `packAmount`: "Range was" is the range's old price rather than this
 product's own, and a bare number cannot say so.
+
+### What a multibuy says
+
+`multiBuyPrice` is the deal as printed, "2 for $8.00", and `multiBuyUnitPrice` is its rate, "$1.07
+per 100G". Both are dollar strings, not cents, and there is no quantity field: the count lives in
+the string. A deal is not a promotion. Of 950 products read at one store, 42 carried a deal and
+none of the 42 carried a `promotionType`. So a row can be on a deal with every promotion field
+null. Read both if you want either.
 
 The default reads all 1,475 leaf categories, because it is the only sweep proved complete. Measured
 at one store on 2026-08-03 it wrote 130,534 rows carrying 31,647 distinct products in thirty one

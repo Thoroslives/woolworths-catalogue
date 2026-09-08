@@ -3,6 +3,7 @@ import { parsePackSize } from "./packSize.js";
 import {
   ProductAvailability,
   ProductLocation,
+  ProductMultiBuy,
   ProductPromotion,
   ProductRow,
 } from "./types.js";
@@ -36,6 +37,8 @@ export interface RawProductCard {
   /** Dollars, in words: "Was $7.00". Not cents, and not a number. */
   wasPrice?: string | null;
   promotionInfo?: { type?: string | null; label?: string | null } | null;
+  /** Ready-made dollar display strings. Neither field is cents or a number. */
+  multiBuyPriceInfo?: { price?: string | null; unitPrice?: string | null } | null;
   inStoreDetails?: { locationText?: string | null; locationType?: string | null } | null;
   inStoreLocation?: { details?: RawLocationDetails | null } | null;
 }
@@ -151,6 +154,7 @@ export function mapProductCard(card: RawProductCard, storeNumber: string): Produ
     price: readPrice(card.price),
     unitPriceDescription: card.unitPriceDescription?.trim() || null,
     ...readPromotion(card),
+    ...readMultiBuy(card),
     // The card carries no pack size field, so the name is where the pack is.
     ...parsePackSize(card.name),
     availability,
@@ -172,6 +176,7 @@ export function notRanged(stockcode: string, storeNumber: string): ProductRow {
     price: null,
     unitPriceDescription: null,
     ...readPromotion({}),
+    ...readMultiBuy({}),
     packDisplay: null,
     packAmount: null,
     packUnit: null,
@@ -241,6 +246,21 @@ export function readPromotion(card: RawProductCard): ProductPromotion {
     wasPrice: Number.isFinite(dollars) && dollars > 0 ? dollars : null,
     promotionType: card.promotionInfo?.type?.trim() || null,
     promotionLabel: card.promotionInfo?.label?.trim() || null,
+  };
+}
+
+/**
+ * The multibuy and its deal-rate exactly as the shelf prints them.
+ *
+ * These look like the rest of the gateway's money fields but are already
+ * formatted in dollars. Keeping a non-blank value untouched avoids turning a
+ * display string into cents, a parsed quantity, or a differently formatted
+ * price. The wire carries no separate quantity to read.
+ */
+export function readMultiBuy(card: RawProductCard): ProductMultiBuy {
+  return {
+    multiBuyPrice: card.multiBuyPriceInfo?.price?.trim() || null,
+    multiBuyUnitPrice: card.multiBuyPriceInfo?.unitPrice?.trim() || null,
   };
 }
 

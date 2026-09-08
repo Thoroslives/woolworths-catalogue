@@ -91,6 +91,7 @@ describe("the degraded detector", () => {
       ["details-on-special", PRODUCT_DETAILS_QUERY],
       ["details-lower-shelf-price", PRODUCT_DETAILS_QUERY],
       ["category-cheese-promotions", PRODUCTS_BY_CATEGORY_QUERY],
+      ["category-single-meals-multibuy", PRODUCTS_BY_CATEGORY_QUERY],
     ];
 
     for (const [name, query] of cases) {
@@ -206,6 +207,8 @@ describe("mapProductByStockcode", () => {
       wasPrice: null,
       promotionType: null,
       promotionLabel: null,
+      multiBuyPrice: null,
+      multiBuyUnitPrice: null,
       packDisplay: "450g",
       packAmount: 450,
       packUnit: "g",

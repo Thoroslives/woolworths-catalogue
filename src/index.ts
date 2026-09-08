@@ -44,6 +44,7 @@ export type {
   PackUnit,
   ProductAvailability,
   ProductLocation,
+  ProductMultiBuy,
   ProductPromotion,
   ProductRow,
 } from "./types.js";

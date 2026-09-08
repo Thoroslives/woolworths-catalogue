@@ -15,6 +15,8 @@ function entry(stockcode: string, name: string, extra: Partial<CatalogueEntry> =
     wasPrice: null,
     promotionType: null,
     promotionLabel: null,
+    multiBuyPrice: null,
+    multiBuyUnitPrice: null,
     categoryId: "1_X",
     categoryLevel1: "Fruit & Veg",
     categoryLevel2: null,
@@ -96,14 +98,15 @@ describe("parseCatalogueEntry", () => {
       isAvailable: true, unitPriceDescription: "$2.50 per 100EA", categoryId: "1_717A94B",
       categoryLevel1: "Baby", categoryLevel2: "Wipes & Changing", categoryLevel3: "Wipes", locationText: "Aisle 8",
       wasPriceDisplay: null, wasPrice: null, promotionType: null, promotionLabel: null,
+      multiBuyPrice: "2 for $8.00", multiBuyUnitPrice: "$1.07 per 100G",
     };
     expect(parseCatalogueEntry(line)).toEqual(line);
   });
 
   it("reads a sweep file written before promotions as carrying none", () => {
-    // Every sweep on disk predates these four fields. Refusing those files, or
+    // Every sweep on disk predates these six fields. Refusing those files, or
     // handing back undefined for them, would make this a breaking change for
-    // the sake of four nulls.
+    // the sake of six nulls.
     const older = {
       storeNumber: "3304", stockcode: "961095", name: "Little Ones Baby Wipes 80pk", price: 2,
       isAvailable: true, unitPriceDescription: "$2.50 per 100EA", categoryId: "1_717A94B",
@@ -111,6 +114,7 @@ describe("parseCatalogueEntry", () => {
     };
     expect(parseCatalogueEntry(older)).toMatchObject({
       wasPriceDisplay: null, wasPrice: null, promotionType: null, promotionLabel: null,
+      multiBuyPrice: null, multiBuyUnitPrice: null,
     });
   });
 
