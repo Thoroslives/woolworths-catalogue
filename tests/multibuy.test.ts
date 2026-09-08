@@ -8,6 +8,8 @@ import {
   mapProductCard,
   mapProductsByCategory,
 } from "../src/productMapper.js";
+import { mapCategoryPage } from "../src/catalogue.js";
+import { findCategoryById } from "../src/categories.js";
 
 // Recorded payloads only. products.test.ts holds the check that keeps every
 // test file off the live gateway, and it reads this file too.
@@ -138,5 +140,23 @@ describe("the multibuy printed on a product card", () => {
       multiBuyPrice: null,
       multiBuyUnitPrice: null,
     });
+  });
+
+  it("carries the deal onto the sweep row, beside the promotion", () => {
+    const singleMeals = findCategoryById("1_B5E7442");
+    expect(singleMeals).not.toBeNull();
+    const page = mapCategoryPage(
+      fixture("category-single-meals-multibuy"),
+      MULTIBUY_STORE,
+      singleMeals!
+    );
+
+    const lasagne = page.entries.find((entry) => entry.stockcode === "388386");
+    expect(lasagne).toMatchObject({
+      promotionType: null,
+      multiBuyPrice: "2 for $8.00",
+      multiBuyUnitPrice: "$1.07 per 100G",
+    });
+    expect(page.entries.filter((entry) => entry.multiBuyPrice !== null)).toHaveLength(4);
   });
 });
