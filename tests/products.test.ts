@@ -843,9 +843,7 @@ describe("what the tag says beyond the price", () => {
     expect(wasPrice("Range was $7.90 14/04/2026")).toBe(7.9);
     expect(wasPrice("Was $1,299.00")).toBe(1299);
     expect(wasPrice("Was $12,000")).toBe(12000);
-    // The separator is not compulsory, and the alternation must not stop at
-    // three digits when it is absent: "$1299.00" read as $1.29 hundred is the
-    // same class of mistake as reading the date.
+    // A thousand with no comma reads whole.
     expect(wasPrice("Was $1299.00")).toBe(1299);
     expect(wasPrice("Was $12345.67")).toBe(12345.67);
   });

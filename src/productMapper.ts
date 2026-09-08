@@ -214,12 +214,9 @@ export function readPrice(cents: number | null | undefined): number | null {
  * Thousands may arrive with a separator, "Was $1,299.00", so the group takes
  * the commas and the caller strips them before reading the number.
  *
- * The separated form needs `+` and not `*` on its group. With `*` it also
- * matches a number carrying NO separator, and matches only the first three
- * digits of it, because alternation takes the first branch that succeeds
- * rather than the longest: "Was $1299.00" then read as $129. The separated
- * branch has to require a separator so an unseparated number falls through to
- * the plain branch whole.
+ * Alternation takes the first branch that matches, so the separated branch
+ * requires at least one comma. A figure with none, "Was $1299.00", then
+ * reaches the plain branch whole.
  */
 const WAS_PRICE = /\$\s*(\d{1,3}(?:,\d{3})+(?:\.\d+)?|\d+(?:\.\d+)?)/;
 
