@@ -254,12 +254,9 @@ export function readPromotion(card: RawProductCard): ProductPromotion {
  * price. The wire carries no separate quantity to read.
  */
 export function readMultiBuy(card: RawProductCard): ProductMultiBuy {
-  const displayString = (value: string | null | undefined): string | null =>
-    typeof value === "string" && value.trim() ? value : null;
-
   return {
-    multiBuyPrice: displayString(card.multiBuyPriceInfo?.price),
-    multiBuyUnitPrice: displayString(card.multiBuyPriceInfo?.unitPrice),
+    multiBuyPrice: card.multiBuyPriceInfo?.price?.trim() || null,
+    multiBuyUnitPrice: card.multiBuyPriceInfo?.unitPrice?.trim() || null,
   };
 }
 
